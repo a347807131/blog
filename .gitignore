@@ -5,6 +5,11 @@ db.json
 node_modules/
 public/
 .deploy*/
-.idea/
 themes/*
-.idea/inspectionProfiles/
+### Example user template template
+### Example user template
+
+# IntelliJ project files
+*.iml
+out
+gen
