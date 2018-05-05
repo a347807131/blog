@@ -11,4 +11,5 @@ public/
 # IntelliJ project files
 out
 gen
-.idea/inspectionProfiles/
+.idea/*
+themes/*
