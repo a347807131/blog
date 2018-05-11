@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/二维码订单业务.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/用户扫码业务.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -18,7 +16,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -63,6 +61,7 @@
         <option value="$PROJECT_DIR$/source/_drafts/posPay的http请求业务.md" />
         <option value="$PROJECT_DIR$/source/_posts/Thread类解读.md" />
         <option value="$PROJECT_DIR$/source/_posts/代付业务.md" />
+        <option value="$PROJECT_DIR$/source/_drafts/定时任务.md" />
       </list>
     </option>
   </component>
@@ -82,9 +81,9 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="373" />
-    <option name="y" value="181" />
-    <option name="width" value="1228" />
+    <option name="x" value="-14" />
+    <option name="y" value="23" />
+    <option name="width" value="1306" />
     <option name="height" value="777" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -112,7 +111,7 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
+              <item name="_drafts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -167,7 +166,8 @@
       <workItem from="1525836502111" duration="16000" />
       <workItem from="1525836526741" duration="1339000" />
       <workItem from="1525858488623" duration="1406000" />
-      <workItem from="1525918380381" duration="3724000" />
+      <workItem from="1525918380381" duration="6167000" />
+      <workItem from="1526003253224" duration="2923000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -225,11 +225,25 @@
       <option name="project" value="LOCAL" />
       <updated>1525836559482</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="update">
+      <created>1525951006024</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1525951006024</updated>
+    </task>
+    <task id="LOCAL-00010" summary="update">
+      <created>1525951028896</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1525951028896</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="38244000" />
+    <option name="totallyTimeSpent" value="43610000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -241,17 +255,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1230" height="777" extended-state="6" />
+    <frame x="0" y="23" width="1228" height="777" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24565756" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24523613" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5012407" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5020678" side_tool="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49958712" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4987593" visible="true" weight="0.32876712" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49793217" visible="true" weight="0.32876712" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -261,6 +274,7 @@
       <window_info anchor="bottom" id="Messages" order="7" weight="0.32876712" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,16 +317,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_posts/Thread类解读.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2366">
-            <caret line="91" selection-start-line="91" selection-end-line="92" selection-end-column="33" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/ipos.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -684,21 +688,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/_drafts/二维码订单业务.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="-1523">
-            <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_drafts/二维码订单业务.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/二维码订单业务.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="2158">
             <caret line="83" column="3" lean-forward="true" selection-start-line="83" selection-start-column="3" selection-end-line="83" selection-end-column="3" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/_drafts/定时任务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="212">
+            <caret line="28" column="16" lean-forward="true" selection-start-line="28" selection-start-column="16" selection-end-line="28" selection-end-column="16" />
           </first_editor>
           <second_editor />
         </state>
