@@ -11,5 +11,5 @@ public/
 # IntelliJ project files
 out
 gen
-.idea/*
+.idea/
 themes/*
