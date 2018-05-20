@@ -27,12 +27,11 @@ paycap=(100.118.3.98 100.118.3.97 100.114.5.160 100.114.5.161 100.118.3.99 100.1
 #第一个为灰度服务器
 shop=(100.109.20.170 100.105.30.148 100.105.30.149 100.109.100.148 100.109.100.149)
 ipos=(100.109.86.21 100.118.2.226 100.114.5.46 100.114.5.47 100.118.2.227)
-scancode=(100.114.1.213 100.114.1.214 100.118.2.152 100.118.2.153)
 
-allxy=(${paygatewayxy[@]} ${wallstreetxy[@]} ${irouterxy[@]} ${paysmsxy[@]})
+allxy=(${paygatewayxy[@]} ${wallstreetxy[@]} ${irouterxy[@]} ${paysmsxy[@]} ${paycap[@]} ${shop[@]} ${ipos[@]})
 allyz=(${paygatewayyz[@]} ${wallstreetyz[@]} ${irouteryz[@]} ${paysmsyz[@]})
 
-all=(${allxy[@]} ${allyz[@]} ${paycap[@]} ${ipos[@]} ${shop[@]} ${scancode[@]})
+all=(${allxy[@]} ${allyz[@]})
 
 while getopts "p:d:t:e:" opt; do
   case $opt in
@@ -84,7 +83,7 @@ irouter=${irouteryz[@]}
 paysms=${paysmsyz[@]}
 if [ "$environment"x = "xy"x ]; then
   paygateway=${paygatewayxy[@]}
-  #paytool=${paytoolxy[@]}
+  paytool=${paytoolxy[@]}
   wallstreet=${wallstreetxy[@]}
   irouter=${irouterxy[@]}
   paysms=${paysmsxy[@]}
@@ -94,44 +93,12 @@ fi
 searchByTraceId() {
   traceid=$1
   #根据traceid，遍历搜索all里所有机器上的日志
-  for lineb in ${paygateway[@]};
+  for lineb in ${paytool[@]};
   do
     ipb=${lineb}
-    echo "paygateway $environment server: $ipb"
+    echo "paytool $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paygateway/root.$day*"
-    echo
-  done
-  for lineb in ${paycap[@]};
-  do
-    ipb=${lineb}
-    echo "paycap $environment server: $ipb"
-    echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paycap/root.$day*"
-    echo
-  done
-  for lineb in ${shop[@]};
-  do
-    ipb=${lineb}
-    echo "shop $environment server: $ipb"
-    echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/shop/root.$day*"
-    echo
-  done
-  for lineb in ${ipos[@]};
-  do
-    ipb=${lineb}
-    echo "ipos $environment server: $ipb"
-    echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/ipos/root.log.$day*"
-    echo
-  done
-  for lineb in ${scancode[@]};
-  do
-    ipb=${lineb}
-    echo "scancode $environment server: $ipb"
-    echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/scancode/root.$day*"
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/archivelog-paytool/2018/04/root.$day*"
     echo
   done
 }

@@ -30,7 +30,7 @@ tags: 源码解读
 
 ---
 
-## Object
+## 一、Object
 
 ### 方法解读
 
@@ -96,8 +96,55 @@ protected void finalize() throws Throwable { }
 > 与构造方法相对应的析构方法，当一个对象被垃圾回收机制回收之前会调用该对象的析构方法，默认为空实现。
 ---
 
-## Class
+## 二、Class<T>
 
-### 方法解读
+### 引出
+- 问题1：Object是对所有类的抽象出来的类，那么Class类作何解释？
+  > 既然`class`是数据结构的体现，那么各种不通的类不就可以看做是这种数据结构的不同实例吗？
+  > 所以，我的理解是`Class`就是所有类的模板类，定义类的过程就是它的实例化过程，而它的实例就是编译后的各种字节码。
+- 问题2：如何实例化`Class`?
+```java
+  /*
+   * Private constructor. Only the Java Virtual Machine creates Class objects.
+   * This constructor is not used and prevents the default constructor being
+   * generated.
+   */
+  private Class(ClassLoader loader, Class<?> arrayComponentType) {
+      // Initialize final field for classLoader.  The initialization value of non-null
+      // prevents future JIT optimizations from assuming this final field is null.
+      classLoader = loader;
+      componentType = arrayComponentType;
+  }
+  ```
+  > 由源码可以知道，`Class`唯一的构造方法是私有的，也就是说，`Class`无法在代码中显式的去实例化，而只能由java虚拟机去创建。
+- 问题3：既然`Class`的唯一构造方法是私有的，那么是否可以通过`反射`来调用该方法来创建实例？
+
+### 类图
+![Class]()
+
+### 字段解读
+
+- 实例成员变量
+
+|字段名|字段类型|值|注释|
+|---:|---:|---:|---:|
+|ANNOTAION|int|0x00002000|注解标识|
+|ENUM|int|0x00004000|枚举标识|
+|SYNTHETIC|int|0x00001000||
+
+- 类成员变量
+
+|字段名|字段类型|注释|
+|---:|---:|---:|
+|cacheConstructor|Constructor<T>||
+|newInstanceCallerCache|Class<T>||
+|String|name||
+||||
+||||
+||||
+
+
+### 构造方法
+> 参考问题`如何实例化Class?`
 
 
