@@ -1,7 +1,6 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-###############################################################
-# Function:    query ptl log
+n:    query ptl log
 # Usage:       sh findptllog -taaa -d1 -exy
 # Author:      woodle
 ###############################################################
@@ -23,6 +22,7 @@ irouteryz=(100.114.5.5 100.114.5.6)
 paysmsxy=(100.118.2.208 100.118.2.209)
 paysmsyz=(100.114.5.7 100.114.5.8)
 
+#paycashier=(100.73.52.36 100.73.48.36 00.73.50.36)
 paycap=(100.118.3.98 100.118.3.97 100.114.5.160 100.114.5.161 100.118.3.99 100.118.3.100 100.114.5.162 100.114.5.163 100.118.3.115 100.118.3.116 100.114.5.179 100.114.5.178)
 #第一个为灰度服务器
 shop=(100.109.20.170 100.105.30.148 100.105.30.149 100.109.100.148 100.109.100.149)
@@ -86,7 +86,7 @@ if [ "$environment"x = "xy"x ]; then
   paygateway=${paygatewayxy[@]}
   #paytool=${paytoolxy[@]}
   wallstreet=${wallstreetxy[@]}
-  irouter=${irouterxy[@]}
+  #irouter=${irouterxy[@]}
   paysms=${paysmsxy[@]}
 fi
 
@@ -108,6 +108,14 @@ searchByTraceId() {
     echo "paycap $environment server: $ipb"
     echo "==========================================="
     ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paycap/root.$day*"
+    echo
+  done
+  for lineb in ${paycashier[@]};
+  do
+    ipb=${lineb}
+    echo "paycashier $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paycashier/root.$day*"
     echo
   done
   for lineb in ${shop[@]};
@@ -164,3 +172,4 @@ if [[ -z "$traceid" ]]; then
   echo "未根据请求参数找到对应的traceid"
   exit 1
 fi
+

@@ -35,25 +35,28 @@ tags: 源码解读
 
 ### 方法解读
 
-- 1.
+- 1
 ```java
 @HotSpotIntrinsicCandidate
 public final native Class<?> getClass();
 ```
 > 本地方法，用于获取该类的字节码对象，且子类无法继承该方法。
-- 2. 
+- 2
 ```java
 private static native void registerNatives();
 ```
 > 本地方法，用于向jvm加载该类的本地方法实现。
-- 3. `public final native Class<?> getClass();` 
+- 3
+```java
+public final native Class<?> getClass();
+```
 > 本地方法，用于获取该类的字节码对象。
-- 4. 
+- 4
 ```java
 public native int hashCode();
 ```
 > 本地方法，返回该对象的hash值。
-- 5. 
+- 5
 ```java
 public boolean equals(Object obj);
 ```
@@ -131,8 +134,8 @@ protected void finalize() throws Throwable { }
 |---:|---:|---:|---:|
 |ANNOTAION|int|0x00002000|注解标识|
 |ENUM|int|0x00004000|枚举标识|
-|SYNTHETIC|int|0x00001000||
-|reflectionFactory|ReflectionFactory|||
+|SYNTHETIC|int|0x00001000|默认标识|
+|reflectionFactory|ReflectionFactory|反射工厂|
 
 - 类成员变量
 
@@ -161,17 +164,17 @@ protected void finalize() throws Throwable { }
 
 ### 对外方法
 
-- 1、toString
+1、toString
 ```java
 public String toString() {
   return (isInterface() ? "interface " : (isPrimitive() ? "" : "class "))
 ```
 > 如果是接口则输出为 interface+name,如果是class则还需要判断是否为基本类型。
 
-- 2、toGenericString
+2、toGenericString
 > 将类定义时的全限定类名输出。
 
-- 3、forName
+3、forName
 ```java
 @CallerSensitive
 public static Class<?> forName(String className)
@@ -184,23 +187,23 @@ public static Class<?> forName(String className)
 > 解读：forName本质是调用名为forName0本地注册方法，用于加载指定的字节码。
 > 静态代码块是跟字节码绑定的，forName0第二个参数`initailize`就是是否加载后初始化后是否执行其中的静态代码块。
 
-- 4、isAssignableFrom
+4、isAssignableFrom
 > 本地注册方法，判定此 Class 对象所表示的类或接口与指定的 Class 参数所表示的类或接口是否相同，或是否是其超类或超接口。如果是则返回 true；否则返回 false。如果该 Class 表示一个基本类型，且指定的 Class 参数正是该 Class 对象，则该方法返回 true；否则返回 false。
 
-- 5、is Interface/Array/Primitive/Annotation/isSynthetic
+5、is Interface/Array/Primitive/Annotation/isSynthetic
 > 用于判断当前类是何种类型结构，Interfce、Array、Primitive为本地实现，Annotation、isSynthetic为修饰符与上对应的标识。
 
-- 6、getName
+6、getName
 ```java
- String name = this.name;
-    if (name == null)
-        this.name = name = getName0();
-    return name;
+String name = this.name;
+if (name == null)
+      this.name = name = getName0();
+   return name;
 }
 ```
 > 用于获取当前实例类的类简名，底层为本地方法对字节码进行操作。
 
-- 7、getClassLoader
+7、getClassLoader
 > 获取该类的类加载对象。
 
 8、getModule
