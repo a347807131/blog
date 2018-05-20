@@ -1,5 +1,6 @@
 ---
 title: 源码解读——Class&Object
+date: 2018-05-20 15:01:30
 tags: 源码解读
 ---
 ## 简介
@@ -120,9 +121,9 @@ protected void finalize() throws Throwable { }
 - 问题3：既然`Class`的唯一构造方法是私有的，那么是否可以通过`反射`来调用该方法来创建实例？
 
 ### 类图
-![Class]()
+![Class](https://raw.githubusercontent.com/a347807131/blog/master/ms/uml/Class.png)
 
-### 字段解读
+### 相关字段(暂时不做具体解读)
 
 - 实例成员变量
 
@@ -131,6 +132,7 @@ protected void finalize() throws Throwable { }
 |ANNOTAION|int|0x00002000|注解标识|
 |ENUM|int|0x00004000|枚举标识|
 |SYNTHETIC|int|0x00001000||
+|reflectionFactory|ReflectionFactory|||
 
 - 类成员变量
 
@@ -138,13 +140,165 @@ protected void finalize() throws Throwable { }
 |---:|---:|---:|
 |cacheConstructor|Constructor<T>||
 |newInstanceCallerCache|Class<T>||
-|String|name||
-||||
-||||
-||||
-
+|String|name|类名|
+|module|Module|相关模块|
+|classLoader|ClassLoader|类加载器|
+|packageName|String|包名|
+|componentType|Class<?>||
+|allPermDomain|ProtectionDomain||
+|reflectionData|SoftReference<Reflection>||
+|genericInfo|ClassRepository||
+|EMPTY_CLASS_ARRAY|Class<?>[]|空类数组|
+|enumConstants|T[]||
+|enumConstantDirectory|Map<String,T>||
+|annotationData|AnnotationData||
+|annotationType|AnnotationType||
+|classValueMap|ClassValueMap||
+|classRedefinedCunt|int|RedefineClasses()被调用的次数|
 
 ### 构造方法
 > 参考问题`如何实例化Class?`
 
+### 对外方法
 
+- 1、toString
+```java
+public String toString() {
+  return (isInterface() ? "interface " : (isPrimitive() ? "" : "class "))
+```
+> 如果是接口则输出为 interface+name,如果是class则还需要判断是否为基本类型。
+
+- 2、toGenericString
+> 将类定义时的全限定类名输出。
+
+- 3、forName
+```java
+@CallerSensitive
+public static Class<?> forName(String className)
+            throws ClassNotFoundException {
+    Class<?> caller = Reflection.getCallerClass();
+    //
+    return forName0(className, true, ClassLoader.getClassLoader(caller), caller);
+}
+```
+> 解读：forName本质是调用名为forName0本地注册方法，用于加载指定的字节码。
+> 静态代码块是跟字节码绑定的，forName0第二个参数`initailize`就是是否加载后初始化后是否执行其中的静态代码块。
+
+- 4、isAssignableFrom
+> 本地注册方法，判定此 Class 对象所表示的类或接口与指定的 Class 参数所表示的类或接口是否相同，或是否是其超类或超接口。如果是则返回 true；否则返回 false。如果该 Class 表示一个基本类型，且指定的 Class 参数正是该 Class 对象，则该方法返回 true；否则返回 false。
+
+- 5、is Interface/Array/Primitive/Annotation/isSynthetic
+> 用于判断当前类是何种类型结构，Interfce、Array、Primitive为本地实现，Annotation、isSynthetic为修饰符与上对应的标识。
+
+- 6、getName
+```java
+ String name = this.name;
+    if (name == null)
+        this.name = name = getName0();
+    return name;
+}
+```
+> 用于获取当前实例类的类简名，底层为本地方法对字节码进行操作。
+
+- 7、getClassLoader
+> 获取该类的类加载对象。
+
+8、getModule
+> 获取该类所属模块对象。
+
+9、getTypeParameters
+> 获取泛型参数
+
+10、getSuperclass
+> 获取父类型
+
+11、getPackage
+> 获取该类所属包的类。
+
+12、getInterface
+> 获取该类实现的接口数组。
+
+13、getComponentType
+> 如果该类是数组，则返回数组元素类型。
+
+14、getModifiers
+> 获取类限定修饰符
+
+15、getSigner
+> 获取类标识
+
+16、getEnclosingMethod ?
+> 如果该类是一个在方法内的局部或内部类，则返回闭包方法，否则就返回null。
+
+17、getEnclosingConstructor ?
+> 如果该类实在构造方法内的局部或内部类，则返回闭包构造方法，否则放回null。
+
+18、getDeclared Class/Method/Field/Constructor
+> 返回该类中定义的内部类、方法、字段。
+
+19、getDeclaringClass ?
+> TODO
+
+20、getEnclosingClass ?
+> TODO
+
+21、getSimpleName
+> 获取类简称名
+
+22、getType
+> 获取类型名
+
+23、getCanonicalName
+> 获取类型名，多数情况下没区别。如果是数组类型或内部类，会有JNI字段描述符的区别。
+```java
+@Test
+public void testclassName4Array() {
+    class Demo1{
+        int i;
+    }
+    String [][] ss = new String[][]{
+    };
+    System.out.println();
+    System.out.println("方法                                值");
+    System.out.println("getName            " + ss.getClass().getName());
+    System.out.println("getCanonicalName   " + ss.getClass().getCanonicalName());
+    System.out.println("getSimpleName      " + ss.getClass().getSimpleName());
+    System.out.println();
+    System.out.println("方法                                值");
+    System.out.println("getName            " + Demo1.class.getName());
+    System.out.println("getCanonicalName   " + Demo1.class.getCanonicalName());
+    System.out.println("getSimpleName      " + Demo1.class.getSimpleName());
+}
+```
+输出
+
+    方法                                值
+    getName            [[Ljava.lang.String;
+    getCanonicalName   java.lang.String[][]
+    getSimpleName      String[][]
+    
+    方法                                值
+    getName            top.catarina.LangTest$1Demo1
+    getCanonicalName   null
+    getSimpleName      Demo1
+
+24、is AnonymousClass/LocalClass/MemberClass
+> 判断是否为匿名类、局部类、成员类。
+
+25、getClasses
+> TODO
+
+26、get Fileds/Methods/Constructors
+> 返回对应公共的副本。
+
+27、getResourceAsStream
+> 获取指定文件名的资源。
+
+28、cast
+> 类强转方法。
+
+29、asSubclass
+> 将当前类强转作为指定父类。
+
+30、getAnnotation
+> 获取类上的注解。
