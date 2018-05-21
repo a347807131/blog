@@ -2,12 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/ms/bash.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ms/shoplogs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/shop.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms/findlogs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ms/findmylogs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms/bash.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ms/bash.sh" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -25,8 +20,8 @@
       <file leaf-file-name="bash.sh" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ms/bash.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+            <state relative-caret-position="676">
+              <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
             </state>
           </provider>
         </entry>
@@ -37,7 +32,14 @@
     <findStrings>
       <find>auto</find>
       <find>multiply100</find>
+      <find>$PROJECT_DIR$/../../../roverliang</find>
+      <find>$PROJECT_DIR$/../../../roverliang/docker_study</find>
+      <find>/data/staticserver</find>
     </findStrings>
+    <replaceStrings>
+      <replace>~/app/n</replace>
+      <replace>~/app/nginx</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -112,7 +114,7 @@
       <path value="$PROJECT_DIR$/themes/next/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="y" value="23" />
     <option name="width" value="1230" />
     <option name="height" value="777" />
@@ -237,6 +239,7 @@
       <workItem from="1526803856831" duration="2767000" />
       <workItem from="1526812481022" duration="944000" />
       <workItem from="1526818013098" duration="1803000" />
+      <workItem from="1526824330033" duration="941000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -354,7 +357,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="101132000" />
+    <option name="totallyTimeSpent" value="102073000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -366,19 +369,19 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1230" height="777" extended-state="0" />
+    <frame x="0" y="23" width="1230" height="777" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24483044" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.5033113" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49958712" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49958712" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49668875" weight="0.32876712" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49668875" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -392,19 +395,19 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24543288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49958712" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49668875" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033113" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49958712" weight="0.32876712" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
@@ -842,8 +845,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ms/bash.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="14" column="40" selection-start-line="14" selection-start-column="40" selection-end-line="14" selection-end-column="40" />
+        <state relative-caret-position="676">
+          <caret line="26" lean-forward="true" selection-start-line="26" selection-end-line="26" />
         </state>
       </provider>
     </entry>
