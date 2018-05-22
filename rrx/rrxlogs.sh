@@ -51,4 +51,3 @@ do
   echo $i
   ssh -i ${LOGKEY} readonly@$i  "grep --color '$trace' /data/logs/${path}/root.$day*"
 done
-

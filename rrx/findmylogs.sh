@@ -1,9 +1,9 @@
 #!/usr/bin/env bash
-
+# 中用于shop工程
 n:    query ptl log
 # Usage:       sh findptllog -taaa -d1 -exy
 # Author:      woodle
-###############################################################
+############################rm ###################################
 
 today=`date +%Y-%m-%d`
 param=
@@ -11,6 +11,27 @@ traceid=
 day=0
 environment=xy
 
+paygatewayxy=(100.118.2.177 100.118.2.178 100.118.2.233 100.118.2.234 100.118.3.71 100.118.3.72)
+paygatewayyz=(100.114.1.200 100.114.1.236 100.114.5.52 100.114.5.53 100.114.5.135 100.114.5.136)
+paytoolxy=(100.118.2.204 100.118.2.205 100.118.2.210 100.118.2.211 100.118.2.212 100.118.2.213)
+paytoolyz=(100.114.5.3 100.114.5.4 100.114.5.10 100.114.5.11 100.114.5.12 100.114.5.13)
+wallstreetxy=(100.118.2.202 100.118.2.203 100.118.2.191 100.118.2.192 100.118.2.193 100.118.2.194)
+wallstreetyz=(100.114.1.239 100.114.1.240 100.114.1.241 100.114.1.242 100.114.1.252 100.114.1.253)
+irouterxy=(100.118.2.206 100.118.2.207)
+irouteryz=(100.114.5.5 100.114.5.6)
+paysmsxy=(100.118.2.208 100.118.2.209)
+paysmsyz=(100.114.5.7 100.114.5.8)
+cashierxy=(100.118.3.42 100.118.3.43 100.118.3.44 100.118.3.45 100.118.3.46 100.118.3.47 100.118.3.48)
+cashieryz=(100.114.5.101 100.114.5.102 100.114.5.103 100.114.5.104 100.114.5.105 100.114.5.106 100.114.5.107)
+
+paycap=(100.118.3.98 100.118.3.97 100.114.5.160 100.114.5.161 100.118.3.99 100.118.3.100 100.114.5.162 100.114.5.163 100.118.3.115 100.118.3.116 100.114.5.179 100.114.5.178)
+#第一个为灰度服务器
+shop=(100.109.20.170 100.105.30.148 100.105.30.149 100.109.100.148 100.109.100.149)
+ipos=(100.109.86.21 100.118.2.226 100.114.5.46 100.114.5.47 100.118.2.227)
+scancode=(100.114.1.213 100.114.1.214 100.118.2.152 100.118.2.153)
+
+allxy=(${paygatewayxy[@]} ${wallstreetxy[@]} ${irouterxy[@]} ${paysmsxy[@]})
+allyz=(${paygatewayyz[@]} ${wallstreetyz[@]} ${irouteryz[@]} ${paysmsyz[@]})
 
 all=(${allxy[@]} ${allyz[@]} ${paycap[@]} ${ipos[@]} ${shop[@]} ${scancode[@]})
 
@@ -62,12 +83,15 @@ paygateway=${paygatewayyz[@]}
 wallstreet=${wallstreetyz[@]}
 irouter=${irouteryz[@]}
 paysms=${paysmsyz[@]}
+cashier=${cashieryz[@]}
+cashier
 if [ "$environment"x = "xy"x ]; then
   paygateway=${paygatewayxy[@]}
   #paytool=${paytoolxy[@]}
   wallstreet=${wallstreetxy[@]}
-  #irouter=${irouterxy[@]}
+  irouter=${irouterxy[@]}
   paysms=${paysmsxy[@]}
+  cashier=${cashierxy[@]}
 fi
 
 #根据traceid去所有机器查找日志
@@ -88,14 +112,6 @@ searchByTraceId() {
     echo "paycap $environment server: $ipb"
     echo "==========================================="
     ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paycap/root.$day*"
-    echo
-  done
-  for lineb in ${paycashier[@]};
-  do
-    ipb=${lineb}
-    echo "paycashier $environment server: $ipb"
-    echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paycashier/root.$day*"
     echo
   done
   for lineb in ${shop[@]};

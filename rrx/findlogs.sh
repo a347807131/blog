@@ -1,10 +1,9 @@
-#!/bin/sh
+#!/usr/bin/env bash
 
-###############################################################
-# Function:    query ptl log
+n:    query ptl log
 # Usage:       sh findptllog -taaa -d1 -exy
 # Author:      woodle
-###############################################################
+############################rm ###################################
 
 today=`date +%Y-%m-%d`
 param=
@@ -22,16 +21,19 @@ irouterxy=(100.118.2.206 100.118.2.207)
 irouteryz=(100.114.5.5 100.114.5.6)
 paysmsxy=(100.118.2.208 100.118.2.209)
 paysmsyz=(100.114.5.7 100.114.5.8)
+cashierxy=(100.118.3.42 100.118.3.43 100.118.3.44 100.118.3.45 100.118.3.46 100.118.3.47 100.118.3.48)
+cashieryz=(100.114.5.101 100.114.5.102 100.114.5.103 100.114.5.104 100.114.5.105 100.114.5.106 100.114.5.107)
 
 paycap=(100.118.3.98 100.118.3.97 100.114.5.160 100.114.5.161 100.118.3.99 100.118.3.100 100.114.5.162 100.114.5.163 100.118.3.115 100.118.3.116 100.114.5.179 100.114.5.178)
 #第一个为灰度服务器
 shop=(100.109.20.170 100.105.30.148 100.105.30.149 100.109.100.148 100.109.100.149)
 ipos=(100.109.86.21 100.118.2.226 100.114.5.46 100.114.5.47 100.118.2.227)
+scancode=(100.114.1.213 100.114.1.214 100.118.2.152 100.118.2.153)
 
-allxy=(${paygatewayxy[@]} ${wallstreetxy[@]} ${irouterxy[@]} ${paysmsxy[@]} ${paycap[@]} ${shop[@]} ${ipos[@]})
+allxy=(${paygatewayxy[@]} ${wallstreetxy[@]} ${irouterxy[@]} ${paysmsxy[@]})
 allyz=(${paygatewayyz[@]} ${wallstreetyz[@]} ${irouteryz[@]} ${paysmsyz[@]})
 
-all=(${allxy[@]} ${allyz[@]})
+all=(${allxy[@]} ${allyz[@]} ${paycap[@]} ${ipos[@]} ${shop[@]} ${scancode[@]})
 
 while getopts "p:d:t:e:" opt; do
   case $opt in
@@ -74,31 +76,105 @@ else
   day=`date -d "$day days ago" '+%Y-%m-%d'`
 fi
 
-echo search key:[$param] traceid:[$traceid] search day:[$day] search environment:[$environment]
+echo search key:[$param] traceid:[$traceivimd] search day:[$day] search environment:[$environment]
 
 paygateway=${paygatewayyz[@]}
-#paytool=${paytoolyz[@]}
+paytool=${paytoolyz[@]}
 wallstreet=${wallstreetyz[@]}
 irouter=${irouteryz[@]}
 paysms=${paysmsyz[@]}
+cashier=${cashieryz[@]}
 if [ "$environment"x = "xy"x ]; then
   paygateway=${paygatewayxy[@]}
   paytool=${paytoolxy[@]}
   wallstreet=${wallstreetxy[@]}
   irouter=${irouterxy[@]}
   paysms=${paysmsxy[@]}
+  cashier=${cashierxy[@]}
 fi
 
 #根据traceid去所有机器查找日志
 searchByTraceId() {
   traceid=$1
   #根据traceid，遍历搜索all里所有机器上的日志
+  for lineb in ${paygateway[@]};
+  do
+    ipb=${lineb}
+    echo "paygateway $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paygateway/root.$day* "
+    echo
+  done
+  for lineb in ${paysms[@]};
+  do
+    ipb=${lineb}
+    echo "paysms $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paysms/paysms.log.$day* "
+    echo
+  done
+  for lineb in ${wallstreet[@]};
+  do
+    ipb=${lineb}
+    echo "wallstreet $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/wallstreet/root.log.$day* "
+    echo
+  done
+  for lineb in ${irouter[@]};
+  do
+    ipb=${lineb}
+    echo "irouter $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/i-router/i-router.log.$day* "
+    echo
+  done
+  for lineb in ${paycap[@]};
+  do
+    ipb=${lineb}
+    echo "paycap $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paycap/root.$day* "
+    echo
+  done
   for lineb in ${paytool[@]};
   do
     ipb=${lineb}
     echo "paytool $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/archivelog-paytool/2018/04/root.$day*"
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paytool/root.$day* "
+    echo
+  done
+  for lineb in ${shop[@]};
+  do
+    ipb=${lineb}
+    echo "shop $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/shop/root.$day* "
+    echo
+  done
+  for lineb in ${ipos[@]};
+  do
+    ipb=${lineb}
+    echo "ipos $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/ipos/root.log.$day* "
+    echo
+  done
+  for lineb in ${scancode[@]};
+  do
+    ipb=${lineb}
+    echo "scancode $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/scancode/root.$day* "
+    echo
+  done
+  for lineb in ${cashier[@]};
+  do
+    ipb=${lineb}
+    echo "cashier $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/cashier/root.$day* "
     echo
   done
 }
@@ -131,3 +207,4 @@ if [[ -z "$traceid" ]]; then
   echo "未根据请求参数找到对应的traceid"
   exit 1
 fi
+
