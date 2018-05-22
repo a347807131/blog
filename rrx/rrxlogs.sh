@@ -33,12 +33,10 @@ if [[ -z "path" ]]; then
   exit 1
   echo "必须指定一个查询的path (-p -t 参数不能为空)"
 fi
-if [[ -z "$traceid" ]]; then
+if [[ -z "$trace" ]]; then
   echo "必须指定一个查询的trace (-p -t 参数不能为空)"
   exit 1
 fi
-
-echo search path:[$path] traceid:[$trace] search day:[$day]
 
 if [[ $day -eq 0 ]]; then
   day=$today
@@ -46,4 +44,11 @@ else
   day=`date -d "$day days ago" '+%Y-%m-%d'`
 fi
 
+echo search path:[$path] traceid:[$trace] search day:[$day]
+
+for i in `cat server.list`
+do
+  echo $i
+  ssh -i ${LOGKEY} readonly@$i  "grep --color '$trace' /data/logs/${path}/root.$day*"
+done
 

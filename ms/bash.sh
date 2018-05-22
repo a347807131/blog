@@ -15,12 +15,4 @@ grant all privileges  on *.* to root@'%' identified by "h5767356q";
 docker run --detach --hostname do.catarina.top --publish 443:443 --publish 80:80 --publish 22:22  --name gitlab  --restart always  --volume ~/app/gitlab/config:/etc/gitlab  --volume ~/app/gitlab/logs:/var/log/gitlab  --volume ~/app/gitlab/data:/var/opt/gitlab gitlab/gitlab-ce:latest
 
 #nginx
-docker run --detach \
-    --name nginx \
-    --publish 80:80 \
-    -v ~/app/nginx/data:/usr/share/nginx/html:rw \
-    -v ~/app/nginx/config/nginx.conf:/etc/nginx/nginx.conf:rw \
-    -v ~/app/nginx/config/servers:/etc/nginx/servers:rw \
-    -v ~/app/nginx/logs/error.log:/var/log/nginx/error.log:rw \
-    -d nginx
-
+docker run --detach --name nginx -p 80:80 -v ~/app/nginx:/usr/share/nginx/html:rw -d nginx

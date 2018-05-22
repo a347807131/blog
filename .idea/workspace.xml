@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rrx/cashier.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/rrxlog.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/rrxlogs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/server.list" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/shop链路.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/服务器配置环境.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms/setting/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms/setting/nginx1.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ms/setting/tomcat.conf" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ms/findmylogs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ms/findmylogs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ms/bash.sh" beforeDir="false" afterPath="$PROJECT_DIR$/ms/bash.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/rrx/rrxlog.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/rrx/rrxlogs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rrx/rrxlogs.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,42 +23,30 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="shop链路.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rrx/shop链路.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="1465">
-                <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
-              </first_editor>
-              <second_editor />
+    <leaf>
+      <file leaf-file-name="nginx.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms/setting/nginx.conf">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-685">
+              <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rrxlog.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rrx/rrxlog.sh">
+      <file leaf-file-name="nginx1.conf" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/ms/setting/nginx1.conf">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="450">
-              <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
+            <state relative-caret-position="245">
+              <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="45" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="rrxlogs.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rrx/rrxlogs.sh">
+      <file leaf-file-name="bash.sh" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ms/bash.sh">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="372">
-              <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="findmylogs.sh" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ms/findmylogs.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="56" />
+            <state relative-caret-position="286">
+              <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
             </state>
           </provider>
         </entry>
@@ -84,10 +72,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/source/_posts/HashSet-HashMap解读.md" />
-        <option value="$PROJECT_DIR$/source/_drafts/Hash算法.md" />
-        <option value="$PROJECT_DIR$/source/_posts/事务.md" />
-        <option value="$PROJECT_DIR$/source/_posts/JDBC解耦.md" />
         <option value="$PROJECT_DIR$/source/_drafts/ipos.md" />
         <option value="$PROJECT_DIR$/source/_posts/ipos.md" />
         <option value="$PROJECT_DIR$/source/_drafts/shop工程.md" />
@@ -124,17 +108,21 @@
         <option value="$PROJECT_DIR$/ms/mysh4log.sh" />
         <option value="$PROJECT_DIR$/ms/findlogs.sh" />
         <option value="$PROJECT_DIR$/source/_drafts/源码解读——Class&amp;Object.md" />
-        <option value="$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md" />
         <option value="$PROJECT_DIR$/ms/shoplogs.sh" />
         <option value="$PROJECT_DIR$/rrx/shop.md" />
-        <option value="$PROJECT_DIR$/ms/bash.sh" />
         <option value="$PROJECT_DIR$/rrx/cashier.md" />
         <option value="$PROJECT_DIR$/ms/server.list" />
         <option value="$PROJECT_DIR$/rrx/rrxlog.sh" />
         <option value="$PROJECT_DIR$/rrx/shop链路.md" />
         <option value="$PROJECT_DIR$/rrx/服务器配置环境.md" />
         <option value="$PROJECT_DIR$/ms/findmylogs.sh" />
+        <option value="$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md" />
         <option value="$PROJECT_DIR$/rrx/rrxlogs.sh" />
+        <option value="$PROJECT_DIR$/ms/setting/nginx.conf" />
+        <option value="$PROJECT_DIR$/ms/setting/tomcat.conf" />
+        <option value="$USER_HOME$/Downloads/nginx.conf" />
+        <option value="$PROJECT_DIR$/ms/setting/nginx1.conf" />
+        <option value="$PROJECT_DIR$/ms/bash.sh" />
       </list>
     </option>
   </component>
@@ -182,7 +170,8 @@
             <path>
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="rrx" type="462c0819:PsiDirectoryNode" />
+              <item name="ms" type="462c0819:PsiDirectoryNode" />
+              <item name="setting" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -285,7 +274,10 @@
       <workItem from="1526868194892" duration="1191000" />
       <workItem from="1526871128754" duration="4078000" />
       <workItem from="1526878160168" duration="7826000" />
-      <workItem from="1526891657458" duration="3041000" />
+      <workItem from="1526891657458" duration="4040000" />
+      <workItem from="1526904085214" duration="410000" />
+      <workItem from="1526911693384" duration="2195000" />
+      <workItem from="1526914867333" duration="1867000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -403,7 +395,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="118209000" />
+    <option name="totallyTimeSpent" value="123680000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -441,25 +433,28 @@
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24543288" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" weight="0.32876712" />
-      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49958712" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
-      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Terminal" order="8" sideWeight="0.49668875" visible="true" weight="0.32876712" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.5033113" side_tool="true" weight="0.32876712" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Version Control" order="10" sideWeight="0.49958712" weight="0.32876712" />
+      <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Messages" order="11" weight="0.32876712" />
       <window_info id="Favorites" order="2" side_tool="true" />
     </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -498,28 +493,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_drafts/shop工程.md" />
-    <entry file="file://$PROJECT_DIR$/source/_drafts/ipos工程.md" />
-    <entry file="file://$PROJECT_DIR$/source/_posts/shop工程.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="219">
-            <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/source/_drafts/商户账户业务.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="1170">
-            <caret line="45" column="8" lean-forward="true" selection-start-line="45" selection-start-column="8" selection-end-line="45" selection-end-column="8" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_drafts/优惠相关业务.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -797,16 +770,6 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ms/mysh4log.sh" />
     <entry file="file://$PROJECT_DIR$/source/_drafts/源码解读——Class&amp;Object.md" />
-    <entry file="file://$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="26">
-            <caret line="205" selection-start-line="205" selection-end-line="205" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/ms/findlogs.sh" />
     <entry file="file://$PROJECT_DIR$/ms/shoplogs.sh">
       <provider selected="true" editor-type-id="text-editor">
@@ -845,48 +808,80 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rrx/shop链路.md">
+    <entry file="file://$PROJECT_DIR$/source/_posts/源码解读——Class&amp;Object.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="1465">
-            <caret line="58" column="23" lean-forward="true" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="211">
+            <caret line="290" column="13" selection-start-line="290" selection-start-column="13" selection-end-line="290" selection-end-column="13" />
           </first_editor>
           <second_editor />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ms/bash.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="476">
-          <caret line="26" selection-start-line="26" selection-end-line="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rrx/server.list">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1274">
-          <caret line="49" column="13" lean-forward="true" selection-start-line="49" selection-start-column="13" selection-end-line="49" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rrx/rrxlog.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="450">
-          <caret line="49" column="4" lean-forward="true" selection-start-line="49" selection-start-column="4" selection-end-line="49" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rrx/rrxlogs.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="372">
-          <caret line="45" column="43" lean-forward="true" selection-start-line="45" selection-start-column="43" selection-end-line="45" selection-end-column="43" />
+        <state relative-caret-position="2">
+          <caret line="42" column="3" lean-forward="true" selection-start-line="42" selection-start-column="3" selection-end-line="42" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/rrxlog.sh" />
+    <entry file="file://$PROJECT_DIR$/rrx/server.list">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="17" column="13" lean-forward="true" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/ms/findmylogs.sh">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="51" lean-forward="true" selection-start-line="51" selection-end-line="56" />
+        <state relative-caret-position="153">
+          <caret line="53" column="4" lean-forward="true" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/shop链路.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="1465">
+            <caret line="58" column="23" selection-start-line="58" selection-start-column="23" selection-end-line="58" selection-end-column="23" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/setting/tomcat.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Downloads/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="70" column="23" lean-forward="true" selection-start-line="70" selection-start-column="23" selection-end-line="70" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/setting/nginx.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-685">
+          <caret line="49" column="21" lean-forward="true" selection-start-line="49" selection-start-column="21" selection-end-line="49" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/setting/nginx1.conf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="36" lean-forward="true" selection-start-line="36" selection-end-line="45" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ms/bash.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="10" lean-forward="true" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
         </state>
       </provider>
     </entry>
