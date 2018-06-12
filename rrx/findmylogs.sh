@@ -106,6 +106,14 @@ searchByTraceId() {
     ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paygateway/root.$day*"
     echo
   done
+  for lineb in ${paysms[@]};
+  do
+    ipb=${lineb}
+    echo "paysms $environment server: $ipb"
+    echo "==========================================="
+    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paysms/paysms.root.$day*"
+    echo
+  done
   for lineb in ${paycap[@]};
   do
     ipb=${lineb}
