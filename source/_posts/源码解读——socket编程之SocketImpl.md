@@ -13,12 +13,12 @@ date: 2018-06-12 17:44:28
 
 网络中的进程是通过socket来通信的，那什么是socket呢？
 > socket起源于Unix，而Unix/Linux基本哲学之一就是“一切皆文件”，都可以用“打开open –> 读写write/read –> 关闭close”模式来操作。
-我的理解就是Socket就是该模式的一个实现，socket即是一种特殊的文件，一些socket函数就是对其进行的操作（读/写IO、打开、关闭），这些函数我们在后面进行介绍。
+> 我的理解就是Socket就是该模式的一个实现，socket即是一种特殊的文件，一些socket函数就是对其进行的操作（读/写IO、打开、关闭），这些函数我们在后面进行介绍。
 ---
 
 ## 类图
 
-![SocketImpl](../../ms/uml/SocketImpl.png)
+![SocketImpl](https://raw.githubusercontent.com/a347807131/blog/master/ms/uml/SocketImpl.png)
 
 ### Socketoptions接口
 
