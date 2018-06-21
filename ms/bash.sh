@@ -2,7 +2,7 @@
 #目录权限
 chmod -R 777 ~/app/jenkins
 #tomcat
-docker run -it --name tomcat -p 8080:8080 -v ~/app/tomcat:/usr/local/tomcat/webapps -d tomcat /bin/bash
+docker run -it --name tomcat -p 8080:8080 -v /app/tomcat:/usr/local/tomcat/webapps -d tomcat /bin/bash
 #jenkins
 docker run --name jenkins -p 8081:8081 -p 50000:50000 -v /app/jenkins:/var/jenkins_home -it -d jenkins
 #mysql

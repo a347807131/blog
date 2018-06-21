@@ -1,7 +1,9 @@
 ---
-title: 源码解读——Socket编程之Socket
+title: 源码解读——Socket编程之Socket(后续补充)
 tags: 源码解读
+date: 2018-06-19 18:54:05
 ---
+
 
 ## 类图
 ![Socket](https://raw.githubusercontent.com/a347807131/blog/master/ms/uml/Socket.png)
@@ -90,5 +92,24 @@ public void close() throws IOException;
             checkOldImpl();
             this.impl.setSocket(this);
         }
+    }
+    /**
+     *根据主机名和端口创建Socket
+     */
+    public Socket(String host, int port)
+        throws UnknownHostException, IOException
+    {
+        this(host != null ? new InetSocketAddress(host, port) :
+             new InetSocketAddress(InetAddress.getByName(null), port),
+             (SocketAddress) null, true);
+    }
+    /**
+     * 根据本地主机名及端口及远端主机及端口创建Socket
+     */
+    public Socket(String host, int port, InetAddress localAddr,
+                  int localPort) throws IOException {
+        this(host != null ? new InetSocketAddress(host, port) :
+               new InetSocketAddress(InetAddress.getByName(null), port),
+             new InetSocketAddress(localAddr, localPort), true);
     }
 ```
