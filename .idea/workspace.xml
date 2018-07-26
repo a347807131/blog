@@ -2,14 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/rrx/README.MD" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/logs.sh" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/rrx/工行对账任务.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rrx/findlogs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rrx/findlogs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rrx/findmylogs.sh" beforeDir="false" afterPath="$PROJECT_DIR$/rrx/findmylogs.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rrx/rrxlogs.sh" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/rrx/server.list" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -24,42 +17,84 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="findlogs.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rrx/findlogs.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="177" column="8" selection-start-line="177" selection-start-column="8" selection-end-line="177" selection-end-column="8" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="findmylogs.sh" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rrx/findmylogs.sh">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="94" column="2" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="README.MD" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/rrx/README.MD">
+      <file leaf-file-name="源码解读——面向对象之Mehtod.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/_drafts/源码解读——面向对象之Mehtod.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor>
-                <caret line="26" selection-start-line="26" selection-end-line="26" />
+              <first_editor relative-caret-position="318">
+                <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
               </first_editor>
               <second_editor />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="源码解读——面向对象之Mehtod.md" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/source/_drafts/源码解读——面向对象之Mehtod.md">
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="74">
+              <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop链路.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rrx/shop链路.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="318">
-                <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
+              <first_editor relative-caret-position="558">
+                <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="shop日志查询.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rrx/shop日志查询.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor />
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="paybase对账.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rrx/paybase对账.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="24">
+                <caret line="14" selection-start-line="14" selection-end-line="14" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="服务器配置环境.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rrx/服务器配置环境.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="FIRST">
+              <first_editor relative-caret-position="168">
+                <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+              </first_editor>
+              <second_editor />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/_config.yml">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file leaf-file-name="工行对账任务.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/rrx/工行对账任务.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="294">
+                <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
               </first_editor>
               <second_editor />
             </state>
@@ -111,7 +146,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/rrx/shop链路.md" />
         <option value="$PROJECT_DIR$/ms/setting/nginx.conf" />
         <option value="$PROJECT_DIR$/ms/setting/tomcat.conf" />
         <option value="$USER_HOME$/Downloads/nginx.conf" />
@@ -162,6 +196,7 @@
         <option value="$PROJECT_DIR$/rrx/服务器配置环境.md" />
         <option value="$PROJECT_DIR$/source/_drafts/源码解读——面向对象之Mehtod.md" />
         <option value="$PROJECT_DIR$/source/_posts/paybase对账.md" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -205,23 +240,6 @@
               <item name="blog" type="b2602c69:ProjectViewProjectNode" />
               <item name="blog" type="462c0819:PsiDirectoryNode" />
               <item name="rrx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_drafts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="blog" type="b2602c69:ProjectViewProjectNode" />
-              <item name="blog" type="462c0819:PsiDirectoryNode" />
-              <item name="source" type="462c0819:PsiDirectoryNode" />
-              <item name="_posts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -392,7 +410,7 @@
       <workItem from="1532070087019" duration="513000" />
       <workItem from="1532080045092" duration="1579000" />
       <workItem from="1532336835006" duration="1340000" />
-      <workItem from="1532585826038" duration="29000" />
+      <workItem from="1532585826038" duration="486000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -513,11 +531,25 @@
       <option name="project" value="LOCAL" />
       <updated>1529607637784</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="update">
+      <created>1532585998960</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1532585998961</updated>
+    </task>
+    <task id="LOCAL-00019" summary="update">
+      <created>1532586105413</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1532586105413</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="251462000" />
+    <option name="totallyTimeSpent" value="251919000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -538,7 +570,7 @@
       <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.4987593" weight="0.543379" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32876712" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.4929694" weight="0.30898023" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.4929694" visible="true" weight="0.30898023" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -614,10 +646,6 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/source/_drafts/pos机业务.md" />
-    <entry file="file://$PROJECT_DIR$/source/_drafts/通用业务.md" />
-    <entry file="file://$PROJECT_DIR$/source/_drafts/内部检测.md" />
-    <entry file="file://$PROJECT_DIR$/source/_drafts/Exception-RuntimeException.md" />
     <entry file="file://$PROJECT_DIR$/source/_drafts/源码解读清单.md" />
     <entry file="file://$PROJECT_DIR$/source/_drafts/商户账户业务.md" />
     <entry file="file://$PROJECT_DIR$/source/_drafts/季报数据统计参考.md" />
@@ -732,16 +760,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/rrx/server.list" />
-    <entry file="file://$PROJECT_DIR$/rrx/shop链路.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="2511">
-            <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/rrx/shop.md" />
     <entry file="file://$PROJECT_DIR$/source/_drafts/电子商务物流管理复习大纲.md" />
     <entry file="file://$PROJECT_DIR$/source/_posts/draft源码解读——Socket编程之ServerSocket.md" />
@@ -843,38 +861,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/rrx/paybase对账.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor>
-            <caret line="14" selection-start-line="14" selection-end-line="14" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/_posts/SQL查询语句.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
           <first_editor />
           <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rrx/工行对账任务.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="294">
-            <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rrx/logs.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -889,16 +880,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret line="94" column="2" selection-start-line="94" selection-start-column="2" selection-end-line="94" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/rrx/服务器配置环境.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="FIRST">
-          <first_editor relative-caret-position="721">
-            <caret line="256" column="14" lean-forward="true" selection-start-line="256" selection-start-column="14" selection-end-line="256" selection-end-column="14" />
-          </first_editor>
-          <second_editor />
         </state>
       </provider>
     </entry>
@@ -922,6 +903,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/工行对账任务.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="294">
+            <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/shop链路.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="558">
+            <caret line="93" column="14" selection-start-line="93" selection-start-column="14" selection-end-line="93" selection-end-column="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/shop日志查询.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/ipos链路.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/logs.sh">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="288">
+          <caret line="12" column="11" selection-start-line="12" selection-start-column="11" selection-end-line="12" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/paybase对账.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="24">
+            <caret line="14" selection-start-line="14" selection-end-line="14" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/source/_drafts/源码解读——面向对象之Mehtod.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -929,6 +963,26 @@
             <caret line="15" column="6" selection-start-line="15" selection-start-column="6" selection-end-line="15" selection-end-column="6" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/rrx/服务器配置环境.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="FIRST">
+          <first_editor relative-caret-position="168">
+            <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_config.yml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="15" column="5" selection-start-line="15" selection-start-column="5" selection-end-line="15" selection-end-column="5" />
         </state>
       </provider>
     </entry>
