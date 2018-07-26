@@ -11,8 +11,8 @@ traceid=
 day=0
 environment=xy
 
-paygatewayxy=(100.118.2.177 100.118.2.178 100.118.2.233 100.118.2.234 100.118.3.71 100.118.3.72)
-paygatewayyz=(100.114.1.200 100.114.1.236 100.114.5.52 100.114.5.53 100.114.5.135 100.114.5.136)
+paygatewayxy=(100.118.2.178 100.118.2.234 100.118.2.233 100.117.20.4 100.117.20.5 100.117.20.6 100.117.20.2 100.117.20.3)
+paygatewayyz=(100.114.1.236 100.114.5.53 100.114.5.52 100.114.5.136)
 paytoolxy=(100.118.2.204 100.118.2.205 100.118.2.210 100.118.2.211 100.118.2.212 100.118.2.213)
 paytoolyz=(100.114.5.3 100.114.5.4 100.114.5.10 100.114.5.11 100.114.5.12 100.114.5.13)
 wallstreetxy=(100.118.2.202 100.118.2.203 100.118.2.191 100.118.2.192 100.118.2.193 100.118.2.194)
@@ -27,7 +27,7 @@ cashieryz=(100.114.5.101 100.114.5.102 100.114.5.103 100.114.5.104 100.114.5.105
 paycap=(100.118.3.98 100.118.3.97 100.114.5.160 100.114.5.161 100.118.3.99 100.118.3.100 100.114.5.162 100.114.5.163 100.118.3.115 100.118.3.116 100.114.5.179 100.114.5.178)
 #第一个为灰度服务器
 shop=(100.109.20.170 100.105.30.148 100.105.30.149 100.109.100.148 100.109.100.149)
-ipos=(100.109.86.21 100.118.2.226 100.114.5.46 100.114.5.47 100.118.2.227)
+ipos=(100.72.67.138 100.118.2.226 100.114.5.46 100.114.5.47 100.118.2.227)
 scancode=(100.114.1.213 100.114.1.214 100.118.2.152 100.118.2.153)
 
 allxy=(${paygatewayxy[@]} ${wallstreetxy[@]} ${irouterxy[@]} ${paysmsxy[@]})
@@ -103,7 +103,7 @@ searchByTraceId() {
     ipb=${lineb}
     echo "paygateway $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paygateway/root.$day*"
+    ssh -i $LOGKEY readonly@$ipb "grep --color '$traceid' /data/logs/paygateway/root.$day*"
     echo
   done
   for lineb in ${paysms[@]};
@@ -111,7 +111,7 @@ searchByTraceId() {
     ipb=${lineb}
     echo "paysms $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paysms/paysms.root.$day*"
+    ssh -i $LOGKEY readonly@$ipb "grep --color '$traceid' /data/logs/paysms/paysms.root.$day*"
     echo
   done
   for lineb in ${paycap[@]};
@@ -119,7 +119,7 @@ searchByTraceId() {
     ipb=${lineb}
     echo "paycap $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/paycap/root.$day*"
+    ssh -i $LOGKEY readonly@$ipb "grep --color '$traceid' /data/logs/paycap/root.$day*"
     echo
   done
   for lineb in ${shop[@]};
@@ -127,7 +127,7 @@ searchByTraceId() {
     ipb=${lineb}
     echo "shop $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/shop/root.$day*"
+    ssh -i $LOGKEY readonly@$ipb "grep --color '$traceid' /data/logs/shop/root.$day*"
     echo
   done
   for lineb in ${ipos[@]};
@@ -135,7 +135,7 @@ searchByTraceId() {
     ipb=${lineb}
     echo "ipos $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/ipos/root.log.$day*"
+    ssh -i $LOGKEY readonly@$ipb "grep --color '$traceid' /data/logs/ipos/root.log.$day*"
     echo
   done
   for lineb in ${scancode[@]};
@@ -143,7 +143,7 @@ searchByTraceId() {
     ipb=${lineb}
     echo "scancode $environment server: $ipb"
     echo "==========================================="
-    ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ipb "grep --color '$traceid' /data/logs/scancode/root.$day*"
+    ssh -i $LOGKEY readonly@$ipb "grep --color '$traceid' /data/logs/scancode/root.$day*"
     echo
   done
 }
@@ -156,7 +156,7 @@ if [[ -z "$traceid" ]]; then
       if [[ -z "$ip" ]]; then
         continue
       fi
-      traceids=`ssh -i /home/user/caoss/key/readonly-zhifu readonly@$ip "grep '$param' /data/logs/paygateway/root.$day* | grep -Eo  '\"traceid\":\"[0-9a-z]+\"'| uniq | tr -d '\"' | cut -d : -f 2"`
+      traceids=`ssh -i $LOGKEY readonly@$ip "grep '$param' /data/logs/paygateway/root.$day* | grep -Eo  '\"traceid\":\"[0-9a-z]+\"'| uniq | tr -d '\"' | cut -d : -f 2"`
       #echo "$ip - $traceid"
       if [[ -n  "$traceids" ]]; then
         arr=(${traceids// / })
