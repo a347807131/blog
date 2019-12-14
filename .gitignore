@@ -12,5 +12,5 @@ public/
 out
 gen
 .idea/
-themes/*
+themes/
 rrx/*
