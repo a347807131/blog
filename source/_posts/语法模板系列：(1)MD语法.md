@@ -1,7 +1,7 @@
 ---
-title: 模板系列：MD语法模板
+title: 语法模板系列：(1)MD语法模板
 date: 2019-12-15 02:22:43
-tags: 模板
+tags: 语法模板
 ---
 # 欢迎使用 Markdown在线编辑器 MdEditor
 
@@ -307,7 +307,8 @@ cond(no)->op
 ### 绘制序列图 Sequence Diagram
 
 ```seq
-Andrew->China: Says Hello
+Andrew->China: 
+Says Hello
 Note right of China: China thinks\nabout it
 China-->Andrew: How are you?
 Andrew->>China: I am good thanks!
