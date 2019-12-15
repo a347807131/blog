@@ -5,10 +5,16 @@ date: 2019-12-15 12:08:56
 ---
 
 
-# Knotty and Graceful Sentences and Words
+# Knotty Graceful Sentences
 ## Chapter 1
 ## Chapter 2
-1. He smiled understandingly——much more than understandingly. It was
+* He smiled understandingly——much more than understandingly. It was
 one of the those rare smiles with a quality of eternal reassurance in it,
 that you may come across four or five times in life.
+
+##chapter 7 
+* 
+* he started up on his tiptoes and then would have collapsed to his knees [had not Tom held him upright].
+* Self-consciously, with his authoritative arms breaking the way, we pushed through the still-gathering crowd,
+passing a hurried doctor, case in hand, who had [been sent for in wild hope] an hour ago.
 
