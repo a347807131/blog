@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(微观部分).md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/语法模板系列：MD语法模板(1).md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/HTTP协议.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/try-catch-finally.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/paybase对账.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/rrx：paybase对账状态映射关系.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：(2)Git命令大全.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/语法模板系列：(2)Git命令大全.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/读书笔记：(1)The-Great-Gatsby.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记：西方经济学-宏观部分.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记：西方经济学-微观部分.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(宏观部分).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单：书单.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/清单系列：书单.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单：待办事项.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/清单系列：待办事项.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：HashSet-HashMap解读.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/源码解读系列：HashSetHashMap.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Socket编程之Socket.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/源码解读系列：Socket编程(Socket).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：socket编程之SocketImpl.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/源码解读系列：socket编程(SocketImpl).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：(1)MD语法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：(2)Git命令大全.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/语法模板系列：Git命令大全.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：(3)vim常用命令.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/语法模板系列：vim常用命令.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/读书笔记：毛泽东选集第五卷.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/读书笔记系列：毛泽东选集第五卷.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" afterDir="false" />
@@ -52,7 +61,7 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-bottom.styl&#10;/Users/civin/WebstormProjects/blog/themes/next/_config.yml" />
-    <property name="last_opened_file_path" value="D:/codes/单片机" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS-Notes" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -405,10 +414,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1576379733399">
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1576388153037">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576379733399" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576388153037" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1576381100778">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -421,10 +430,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576350808324" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576348611592">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576385394770">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576348611592" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576385394770" />
   </component>
   <component name="masterDetails">
     <states>

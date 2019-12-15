@@ -1,18 +1,18 @@
 ---
-title: 语法模板系列：(2)Git命令大全
+title: 语法模板系列：Git命令大全
 date: 2019-12-15 02:37:34
 tags: 语法模板
 ---
 > 转自：https://www.jianshu.com/p/46ffff059092
-# 1 总览
-## 1.1 命令大全
+# 总览
+## 命令大全
 ![overall](https://s2.ax1x.com/2019/12/15/QWr2ge.jpg)
-## 2.2 工作图
+## 工作图
 ![12](https://upload-images.jianshu.io/upload_images/18087435-2b52aaf65be47442.jpg)
 
 ----
-# 2 命令详解
-## 2.1 新建仓库
+# 命令详解
+## 新建仓库
 ```bash
 # 在当前目录新建一个Git代码库
 $ git init
@@ -21,7 +21,7 @@ $ git init [project-name]
 # 下载一个项目和它的整个代码历史
 $ git clone [url]
 ```
-## 2.2 配置
+## 配置
 ```bash
 # 显示当前的Git配置
 $ git config --list
@@ -35,7 +35,7 @@ $ git config [--global] user.email "[email address]"
 $ git config user.name #你的目标用户名
 $ git config user.email #你的目标邮箱名
 ```
-## 2.3 增加/删除文件
+## 增加/删除文件
 ```bash
 # 添加指定文件到暂存区
 $ git add [file1] [file2] ...
@@ -53,7 +53,7 @@ $ git rm --cached [file]
 # 改名文件，并且将这个改名放入暂存区
 $ git mv [file-original] [file-renamed]
 ```
-## 2.4 代码提交
+## 代码提交
 ```bash
 # 提交暂存区到仓库区
 $ git commit -m [message]
@@ -69,7 +69,7 @@ $ git commit --amend -m [message]
 # 重做上一次commit，并包括指定文件的新变化
 $ git commit --amend [file1] [file2] ...
 ```
-## 2.5分支
+## 分支
 ```bash
 # 列出所有本地分支
 $ git branch
@@ -102,7 +102,7 @@ $ git branch -d [branch-name]
 $ git push origin --delete [branch-name]
 $ git branch -dr [remote/branch]
 ```
-## 2.6 标签
+## 标签
 ```bash
 # 列出所有tag
 $ git tag
@@ -123,7 +123,7 @@ $ git push [remote] --tags
 # 新建一个分支，指向某个tag
 $ git checkout -b [branch] [tag]
 ```
-## 2.7 查看信息
+## 查看信息
 ```bash
 # 显示有变更的文件
 $ git status
@@ -170,7 +170,7 @@ $ git reflog
 # 从本地master拉取代码更新当前分支：branch 一般为master
 $ git rebase [branch]
 ```
-## 2.8 远程同步
+## 远程同步
 ```bash
 $ git remote update  #更新远程仓储
 # 下载远程仓库的所有变动
@@ -190,7 +190,7 @@ $ git push [remote] --force
 # 推送所有分支到远程仓库
 $ git push [remote] --all
 ```
-## 2.9 撤销
+## 撤销
 ```bash
 # 恢复暂存区的指定文件到工作区
 $ git checkout [file]

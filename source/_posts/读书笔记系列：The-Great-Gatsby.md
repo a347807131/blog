@@ -1,7 +1,9 @@
 ---
-title: Reading Notes：(1)The Great Gatsby
-tags: notes
+title: 读书笔记系列：The Great Gatsby
+tags: 读书笔记
+date: 2019-12-15 12:08:56
 ---
+
 
 # Knotty and Graceful Sentences and Words
 ## Chapter 1
