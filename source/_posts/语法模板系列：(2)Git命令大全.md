@@ -172,7 +172,7 @@ $ git rebase [branch]
 ```
 ## 2.8 远程同步
 ```bash
-$ git remote update  --更新远程仓储
+$ git remote update  #更新远程仓储
 # 下载远程仓库的所有变动
 $ git fetch [remote]
 # 显示所有远程仓库

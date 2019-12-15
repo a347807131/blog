@@ -1,7 +1,9 @@
 ---
 title: HTTP协议
-tags: 
+date: 2019-12-15 10:24:49
+tags: 知识点
 ---
+
 
 ## WebServer通讯过程
 > HTTP通信机制是在一次完整的HTTP通信过程中，Web浏览器与Web服务器之间将完成下列7个步骤：
