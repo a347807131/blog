@@ -2,16 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/Jottings.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/清单系列：书籍.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/清单系列：第九艺术.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：一技之长的命运.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：为了那一个羡慕的眼神.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：人口红利的时代.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：从旧闻说起当下的职场生态.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：令人悲伤的五千块定律.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：你是如何逐渐对曾经深信不疑的东西产生怀疑的？.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：判断行业好坏的一泡污双杀定律.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：在一家离职率高的公司上班体验.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：大有大的好，小有小的坑.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：如何评价京东内部发文《坚决裁掉因家庭原因和身体原因不拼命的员工》.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：既是红利又是悲剧.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-1.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：职场上那些老前辈们的恶意.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：胡扯一下上班守恒定律.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：被定义的失败.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/问答系列：如何评价 Netflix 原创纪录片《美国工厂》.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/CNAME" beforeDir="false" afterPath="$PROJECT_DIR$/source/CNAME" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/HTTP.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(微观部分).md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(微观部分).md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：书单.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Jottings.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Jottings.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：书籍.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/清单系列：书籍.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：待办事项.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/清单系列：待办事项.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：第九艺术.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/清单系列：第九艺术.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/读书笔记系列：The-Great-Gatsby.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/读书笔记系列：The-Great-Gatsby.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
@@ -241,7 +252,9 @@
       <workItem from="1532677856740" duration="1317000" />
       <workItem from="1532947924132" duration="521000" />
       <workItem from="1576393504833" duration="204000" />
-      <workItem from="1576393767524" duration="14406000" />
+      <workItem from="1576393767524" duration="17938000" />
+      <workItem from="1576420176265" duration="2686000" />
+      <workItem from="1576463622320" duration="10842000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -401,6 +414,16 @@
   <component name="UnknownFeatures">
     <option featureType="com.intellij.fileTypeFactory" implementationName="*.conf" />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
@@ -431,10 +454,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576381100778" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1576393768411">
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1576463623180">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576393768411" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576463623180" />
     <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1576349821295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -443,10 +466,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576390667430" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576393954274">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576477933617">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576393954274" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576477933617" />
   </component>
   <component name="masterDetails">
     <states>
