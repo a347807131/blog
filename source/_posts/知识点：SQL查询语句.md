@@ -1,5 +1,5 @@
 ---
-title: SQL查询语句
+title: 知识点：SQL查询语句
 date: 2018-04-29 11:52:24
 tags:
 ---
