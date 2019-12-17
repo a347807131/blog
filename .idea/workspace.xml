@@ -2,18 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：30岁左右的人，来谈谈你犯了哪些错误？.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：为什么职场上会有这么多不靠谱的人？.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：其实，我们都一样.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们是如何走到这一步的.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们真的不一样吗？.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：深夜怀疑式痛哭.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-后记.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：知识真的是你的财富吗？.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：那些全是故事的好同学.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：那些正确而无用的废话.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/知识点：DOM解析.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/知识点：css-selector语法.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/小技巧：华丽的分割线.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/小技巧：华丽的分割线.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(微观部分).md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(微观部分).md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" afterDir="false" />
@@ -68,7 +60,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-bottom.styl&#10;/Users/civin/WebstormProjects/blog/themes/next/_config.yml" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../CS-Notes" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,7 +72,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -109,11 +101,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <recent_temporary>
-      <list>
-        <item itemvalue="Bash.mysh4log.sh" />
-      </list>
-    </recent_temporary>
   </component>
   <component name="ServiceViewManager">
     <option name="viewStates">
@@ -244,7 +231,10 @@
       <workItem from="1576393504833" duration="204000" />
       <workItem from="1576393767524" duration="17938000" />
       <workItem from="1576420176265" duration="2686000" />
-      <workItem from="1576463622320" duration="17488000" />
+      <workItem from="1576463622320" duration="17645000" />
+      <workItem from="1576566080917" duration="3440000" />
+      <workItem from="1576577751770" duration="69000" />
+      <workItem from="1576577849387" duration="105000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -440,14 +430,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576388153037" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1576381100778">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1576577957078">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576381100778" />
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1576463623180">
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576577957078" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1576566078450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576463623180" />
+    <state x="363" y="188" key="com.intellij.ide.util.TipDialog/0.0.1366.728@0.0.1366.728" timestamp="1576566078450" />
     <state x="92" y="92" width="1182" height="544" key="dock-window-1" timestamp="1576349821295">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
