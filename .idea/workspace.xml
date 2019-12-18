@@ -2,20 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_posts/清单系列：系列列表.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/about/me.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/categories/index.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/tags/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scaffolds/draft.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/draft.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolds/page.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/page.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/post.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/about/me.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/categories/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/categories/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/tags/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/tags/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/lib/three/three.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/lib/three/three.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/yilia/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/yilia/layout/_partial/head.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +80,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.keymap" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -250,6 +245,7 @@
       <workItem from="1576577751770" duration="69000" />
       <workItem from="1576577849387" duration="16891000" />
       <workItem from="1576664193799" duration="702000" />
+      <workItem from="1576672011594" duration="420000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -434,6 +430,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/.deploy_git" />
+      <path value="$PROJECT_DIR$/themes/next" />
+      <path value="$PROJECT_DIR$/themes/yilia" />
+    </ignored-roots>
     <MESSAGE value="initial commit" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="done" />
@@ -445,10 +446,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576388153037" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1576579215501">
+    <state x="184" y="6" key="SettingsEditor" timestamp="1576672070660">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576579215501" />
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576672070660" />
     <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1576566078450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
