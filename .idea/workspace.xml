@@ -2,9 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/source/_posts/清单系列：系列列表.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/about/me.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/categories/index.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/tags/index.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Jottings.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Jottings.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：至无线接近的你.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：至无限接近的你.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolds/draft.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/draft.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/post.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
@@ -456,10 +461,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576579717525" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576485510479">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576668536692">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576485510479" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576668536692" />
   </component>
   <component name="masterDetails">
     <states>
