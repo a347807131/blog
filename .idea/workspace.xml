@@ -1,16 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Jottings.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Jottings.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：至无线接近的你.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：至无限接近的你.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" afterDir="false" />
+    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="添加标签、目录等新页面功能，删除原意停止维护的next主题项目，并更换为v6版本。">
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/source/lib/three/three.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/lib/three/three.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/yilia/layout/_partial/head.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/themes/yilia/layout/_partial/head.ejs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,7 +43,7 @@
     </replaceStrings>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/next" />
   </component>
   <component name="ProjectId" id="1V0cSQOY359f1G7sitCic1BN9aP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
