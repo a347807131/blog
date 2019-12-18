@@ -2,33 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/source/_drafts/caogao.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_drafts/清单系列：总览.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：《了不起的盖兹比》自翻-第一章.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：《活着》摘选.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：一个不切实际的想法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：不平等世界里的寒门之子.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：关于上课占座的建议.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：关于社会的一点杂谈.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：检讨前后——节选自《三重门》.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：流落街头的理科状元.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：海燕.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：至无线接近的你.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：读《活着》——寒梅独放.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：读《红与黑》主人公——于连.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：读尼采之人生没有意义.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/书斋：静始于声.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：尼采哲学摘要.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/知识点：英语中的修辞手法.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/_posts/知识点：英语中的半否定句式.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/北邮嵌入式课程作业.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/北邮嵌入式课程作业.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/源码解读——Socket编程之ServerSocket.md" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/source/_posts/Jottings.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/Jottings.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/SQL查询语句.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/知识点：SQL查询语句.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/问答系列：如何评价 Netflix 原创纪录片《美国工厂》.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/知乎问答系列：如何评价 Netflix 原创纪录片《美国工厂》.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：至无线接近的你.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：至无限接近的你.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/source/lib/Han/dist/font/han-space.woff" afterDir="false" />
@@ -266,7 +243,8 @@
       <workItem from="1576463622320" duration="17645000" />
       <workItem from="1576566080917" duration="3440000" />
       <workItem from="1576577751770" duration="69000" />
-      <workItem from="1576577849387" duration="15840000" />
+      <workItem from="1576577849387" duration="16891000" />
+      <workItem from="1576664193799" duration="702000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
