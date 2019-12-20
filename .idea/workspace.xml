@@ -2,61 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="重新构建hexo网站，解决了数学公式不能显示的问题，同时保留了博客md文件。本分支将作文主分支使用。">
-      <change afterPath="$PROJECT_DIR$/source/lib/three/.github/stale.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/LICENSE" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/canvas_lines.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/canvas_sphere.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/gulpfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/lib/CanvasRenderer.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/lib/Projector.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/renovate.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/src/canvas_lines.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/src/canvas_sphere.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/src/three-waves.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/three-waves.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/source/lib/three/three.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学-微观部分.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：《活着》摘选.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：《活着》摘选.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：一个不切实际的想法.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：一个不切实际的想法.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：不平等世界里的寒门之子.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：不平等世界里的寒门之子.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：关于上课占座的建议.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：关于上课占座的建议.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：关于社会的一点杂谈.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：关于社会的一点杂谈.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：检讨前后——节选自《三重门》.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：检讨前后——节选自《三重门》.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：流落街头的理科状元.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：流落街头的理科状元.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：海燕.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：海燕.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：至无限接近的你.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：至无限接近的你.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读《活着》——寒梅独放.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：读《活着》——寒梅独放.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读《红与黑》主人公——于连.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：读《红与黑》主人公——于连.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读尼采之人生没有意义.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：读尼采之人生没有意义.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：静始于声.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：静始于声.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：尼采哲学摘要.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：尼采哲学摘要.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：30岁左右的人，来谈谈你犯了哪些错误？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：30岁左右的人，来谈谈你犯了哪些错误？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：一技之长的命运.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：一技之长的命运.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：为了那一个羡慕的眼神.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：为了那一个羡慕的眼神.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：为什么职场上会有这么多不靠谱的人？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：为什么职场上会有这么多不靠谱的人？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：人口红利的时代.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：人口红利的时代.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：从旧闻说起当下的职场生态.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：从旧闻说起当下的职场生态.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：令人悲伤的五千块定律.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：令人悲伤的五千块定律.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：你是如何逐渐对曾经深信不疑的东西产生怀疑的？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：你是如何逐渐对曾经深信不疑的东西产生怀疑的？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：其实，我们都一样.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：其实，我们都一样.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：判断行业好坏的一泡污双杀定律.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：判断行业好坏的一泡污双杀定律.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：在一家离职率高的公司上班体验.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：在一家离职率高的公司上班体验.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：大有大的好，小有小的坑.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：大有大的好，小有小的坑.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：如何评价京东内部发文《坚决裁掉因家庭原因和身体原因不拼命的员工》.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：如何评价京东内部发文《坚决裁掉因家庭原因和身体原因不拼命的员工》.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们是如何走到这一步的.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们是如何走到这一步的.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们真的不一样吗？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们真的不一样吗？.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：既是红利又是悲剧.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：既是红利又是悲剧.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：深夜怀疑式痛哭.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：深夜怀疑式痛哭.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-1.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-1.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-后记.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-后记.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：知识真的是你的财富吗？.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/弗兰克扬：知识真的是你的财富吗？.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.swig" afterDir="false" />
@@ -273,7 +222,7 @@
       <workItem from="1576672011594" duration="420000" />
       <workItem from="1576732014888" duration="19970000" />
       <workItem from="1576825196941" duration="214000" />
-      <workItem from="1576825436552" duration="7568000" />
+      <workItem from="1576825436552" duration="15371000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
