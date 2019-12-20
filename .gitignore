@@ -5,12 +5,3 @@ db.json
 node_modules/
 public/
 .deploy*/
-### Example user template template
-### Example user template
-
-# IntelliJ project files
-out
-gen
-.idea/
-themes/
-rrx/*

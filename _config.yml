@@ -3,12 +3,12 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Civin's blog
+title: Gatsby's blog
 subtitle:
 description:
 keywords: blog
-author: Civin
-language:
+author: Gatsby
+language: en
 timezone: UTC
 
 # URL

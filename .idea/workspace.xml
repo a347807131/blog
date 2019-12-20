@@ -1,15 +1,29 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="">
+    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="添加标签、目录等新页面功能，删除原意停止维护的next主题项目，并更换为v6版本。">
+      <change afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：概率论与数理统计.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/._.DS_Store" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/_config.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bupt/bash.sh" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scaffolds/draft.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/draft.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scaffolds/page.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/page.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/scaffolds/post.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/post.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/about/me.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/about/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/categories/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/categories/index.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/tags/index.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/tags/index.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/Hash算法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/caogao.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/学习清单.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/清单系列：总览.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/源码解读——面向对象之Mehtod.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/rrx：paybase对账状态映射关系.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：《了不起的盖兹比》自翻-第一章.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/书斋：《了不起的盖兹比》自翻-第一章.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(宏观部分).md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(宏观部分).md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(微观部分).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：MD中数学公式整理.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/语法模板系列：MD中数学公式整理.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,31 +37,6 @@
         <option value="HTML File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>auto</find>
-      <find>multiply100</find>
-      <find>D:/../roverliang</find>
-      <find>D:/../roverliang/docker_study</find>
-      <find>/data/staticserver</find>
-      <find>100.114.1.213</find>
-      <find>100.118.2.227</find>
-      <find>100.118.3.98</find>
-      <find>100.118.2.177</find>
-      <find>100.118.3.72</find>
-      <find>100.118.2.202</find>
-      <find>100.118.2.206</find>
-      <find>100.118.2.208</find>
-      <find>800001800010083</find>
-      <find>&gt; temp.txt</find>
-      <find>/home/user/caoss/key/readonly-zhifu</find>
-    </findStrings>
-    <replaceStrings>
-      <replace>~/app/n</replace>
-      <replace>~/app/nginx</replace>
-      <replace>$LOGKEY</replace>
-    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -68,7 +57,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="add_unversioned_files" value="$PROJECT_DIR$/themes/landscape/source/css/_partial/sidebar-bottom.styl&#10;/Users/civin/WebstormProjects/blog/themes/next/_config.yml" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/source/_posts" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.prettier" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
@@ -80,15 +69,16 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\备份\blog\source\_posts" />
+      <recent name="D:\备份\blog" />
+      <recent name="D:\备份\blog\source" />
       <recent name="$PROJECT_DIR$/ms/uml/morning" />
       <recent name="$PROJECT_DIR$/ms" />
-      <recent name="$PROJECT_DIR$/ms/uml" />
-      <recent name="$PROJECT_DIR$/ms/setting" />
-      <recent name="$PROJECT_DIR$/source" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\备份\blog\source\_posts" />
@@ -246,6 +236,9 @@
       <workItem from="1576577849387" duration="16891000" />
       <workItem from="1576664193799" duration="702000" />
       <workItem from="1576672011594" duration="420000" />
+      <workItem from="1576732014888" duration="19970000" />
+      <workItem from="1576825196941" duration="214000" />
+      <workItem from="1576825436552" duration="5376000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -390,15 +383,6 @@
     <option name="localTasksCounter" value="21" />
     <servers />
   </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
@@ -442,14 +426,34 @@
     <option name="LAST_COMMIT_MESSAGE" value="update" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1576388153037">
+    <state x="90" y="0" key="CommitChangelistDialog2" timestamp="1576830967754">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576388153037" />
-    <state x="184" y="6" key="SettingsEditor" timestamp="1576672070660">
+    <state x="90" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576830967754" />
+    <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1576826577868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576672070660" />
+    <state x="463" y="119" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1576826577868" />
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom" timestamp="1576830144653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.bottom/0.0.1366.728@0.0.1366.728" timestamp="1576830144653" />
+    <state width="1345" height="179" key="GridCell.Tab.0.center" timestamp="1576830144653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.center/0.0.1366.728@0.0.1366.728" timestamp="1576830144653" />
+    <state width="1345" height="179" key="GridCell.Tab.0.left" timestamp="1576830144652">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.left/0.0.1366.728@0.0.1366.728" timestamp="1576830144652" />
+    <state width="1345" height="179" key="GridCell.Tab.0.right" timestamp="1576830144653">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576830144653" />
+    <state x="184" y="6" key="SettingsEditor" timestamp="1576736674353">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="184" y="6" key="SettingsEditor/0.0.1366.728@0.0.1366.728" timestamp="1576736674353" />
     <state x="363" y="188" key="com.intellij.ide.util.TipDialog" timestamp="1576566078450">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -462,10 +466,10 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576579717525" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576668536692">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576828225923">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576668536692" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576828225923" />
   </component>
   <component name="masterDetails">
     <states>
