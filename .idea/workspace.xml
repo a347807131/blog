@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="重新构建hexo网站，解决了数学公式不能显示的问题，同时保留了博客md文件。本分支将作文主分支使用。">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="配置文件改动">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/scaffolds/draft.md" beforeDir="false" afterPath="$PROJECT_DIR$/scaffolds/draft.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/themes/next/_config.yml" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/_config.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.swig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +220,7 @@
       <workItem from="1576672011594" duration="420000" />
       <workItem from="1576732014888" duration="19970000" />
       <workItem from="1576825196941" duration="214000" />
-      <workItem from="1576825436552" duration="16948000" />
+      <workItem from="1576825436552" duration="19243000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1525156255881</created>
@@ -370,7 +369,14 @@
       <option name="project" value="LOCAL" />
       <updated>1576830974972</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="配置文件改动">
+      <created>1576846658369</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1576846658369</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -414,13 +420,14 @@
     <MESSAGE value="done" />
     <MESSAGE value="update" />
     <MESSAGE value="重新构建hexo网站，解决了数学公式不能显示的问题，同时保留了博客md文件。本分支将作文主分支使用。" />
-    <option name="LAST_COMMIT_MESSAGE" value="重新构建hexo网站，解决了数学公式不能显示的问题，同时保留了博客md文件。本分支将作文主分支使用。" />
+    <MESSAGE value="配置文件改动" />
+    <option name="LAST_COMMIT_MESSAGE" value="配置文件改动" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="90" y="0" key="CommitChangelistDialog2" timestamp="1576830967754">
+    <state x="0" y="0" key="CommitChangelistDialog2" timestamp="1576846654414">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="90" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576830967754" />
+    <state x="0" y="0" key="CommitChangelistDialog2/0.0.1366.728@0.0.1366.728" timestamp="1576846654414" />
     <state x="463" y="119" key="FileChooserDialogImpl" timestamp="1576826577868">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
