@@ -3,6 +3,7 @@ layout: blog
 title: JDBC解耦
 date: 2018-05-05 14:06:46
 tags: 解耦
+categories: 知识点系列
 ---
 
 ## JDBC
