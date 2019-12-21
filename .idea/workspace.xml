@@ -1,8 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="刪除了post文件，保留作为新功能开发分支的作用，同时解决了latex数学公式不能换行的问题，具体原因未知，可能是更换了md渲染引擎为kramed.">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="添加live2d动画效果">
+      <change afterPath="$PROJECT_DIR$/source/_posts/caogao.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_drafts/caogao.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/Jottings.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/StringQA.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/ThreadQA.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：《了不起的盖兹比》自翻-第一章.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：《活着》摘选.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：一个不切实际的想法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：不平等世界里的寒门之子.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：关于上课占座的建议.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：关于社会的一点杂谈.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：检讨前后——节选自《三重门》.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：流落街头的理科状元.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：海燕.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：至无限接近的你.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读《活着》——寒梅独放.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读《红与黑》主人公——于连.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读尼采之人生没有意义.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：静始于声.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/北邮嵌入式课程作业.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：尼采哲学摘要.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：概率论与数理统计.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(宏观部分).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学-微观部分.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：高等数学-下册.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/小技巧：华丽的分割线.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：30岁左右的人，来谈谈你犯了哪些错误？.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：一技之长的命运.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：为了那一个羡慕的眼神.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：为什么职场上会有这么多不靠谱的人？.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：人口红利的时代.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：从旧闻说起当下的职场生态.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：令人悲伤的五千块定律.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：你是如何逐渐对曾经深信不疑的东西产生怀疑的？.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：其实，我们都一样.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：判断行业好坏的一泡污双杀定律.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：在一家离职率高的公司上班体验.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：大有大的好，小有小的坑.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：如何评价京东内部发文《坚决裁掉因家庭原因和身体原因不拼命的员工》.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们是如何走到这一步的.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们真的不一样吗？.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：既是红利又是悲剧.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：深夜怀疑式痛哭.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-1.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-后记.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：知识真的是你的财富吗？.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：职场上那些老前辈们的恶意.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：胡扯一下上班守恒定律.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：被定义的失败.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：那些全是故事的好同学.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：那些正确而无用的废话.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：书籍.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：待办事项.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：第九艺术.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：系列列表.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读清单.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Class&amp;Object.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Exception-RuntimeException.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：HashSetHashMap.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Socket编程(Socket).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：ThreadLocal.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Thread类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Throwable类(1).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：socket编程(SocketImpl).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知乎问答系列：如何评价 Netflix 原创纪录片《美国工厂》.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：DOM解析.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：HTTP协议.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：JDBC解耦.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：SQL查询语句.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：css-selector语法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：事务.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：内部类.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：英语中的修辞手法.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：英语中的半否定句式.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：Git命令大全.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：MD中数学公式整理.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：MD语法模板(1).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：MD语法模板(2).md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：vim常用命令.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/读书笔记系列：The-Great-Gatsby.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/读书笔记系列：毛泽东选集第五卷.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/source/_posts/高数文档.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.swig" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +103,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_BRANCH_BY_REPOSITORY">
-      <map>
-        <entry key="$PROJECT_DIR$" value="new-writting" />
-      </map>
-    </option>
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-    <option name="ROOT_SYNC" value="SYNC" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/next" />
   </component>
   <component name="ProjectId" id="1V0cSQOY359f1G7sitCic1BN9aP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -427,6 +507,10 @@
     <option name="LAST_COMMIT_MESSAGE" value="配置文件改动" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="275" y="22" key="#Markdown" timestamp="1576916779762">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="275" y="22" key="#Markdown/0.0.1366.728@0.0.1366.728" timestamp="1576916779762" />
     <state x="275" y="22" key="#Plugins" timestamp="1576878244383">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -455,14 +539,6 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576851365257" />
-    <state x="129" y="55" key="MergeDialog" timestamp="1576918538176">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918538176" />
-    <state x="392" y="79" key="MultipleFileMergeDialog" timestamp="1576918538192">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="392" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918538192" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1576833037137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -475,22 +551,18 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1576349821295" />
-    <state x="445" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576918477500">
+    <state x="467" y="155" key="git4idea.merge.GitMergeDialog" timestamp="1576916360264">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="445" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918477500" />
-    <state x="467" y="155" key="git4idea.merge.GitMergeDialog" timestamp="1576918622753">
-      <screen x="0" y="0" width="1366" height="728" />
-    </state>
-    <state x="467" y="155" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918622753" />
+    <state x="467" y="155" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1576916360264" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1576579717525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="339" y="162" key="run.anything.popup/0.0.1366.728@0.0.1366.728" timestamp="1576579717525" />
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576915506514">
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup" timestamp="1576916825291">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
-    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576915506514" />
+    <state x="346" y="49" width="672" height="678" key="search.everywhere.popup/0.0.1366.728@0.0.1366.728" timestamp="1576916825291" />
   </component>
   <component name="masterDetails">
     <states>
