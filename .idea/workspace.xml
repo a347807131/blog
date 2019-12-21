@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="添加live2d动画效果" />
+    <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="刪除了post文件，保留作为新功能开发分支的作用，同时解决了latex数学公式不能换行的问题，具体原因未知，可能是更换了md渲染引擎为kramed.">
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -15,7 +17,13 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="new-writting" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="ROOT_SYNC" value="SYNC" />
   </component>
   <component name="ProjectId" id="1V0cSQOY359f1G7sitCic1BN9aP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -447,6 +455,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state width="1345" height="179" key="GridCell.Tab.0.right/0.0.1366.728@0.0.1366.728" timestamp="1576851365257" />
+    <state x="129" y="55" key="MergeDialog" timestamp="1576918538176">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="129" y="55" key="MergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918538176" />
+    <state x="392" y="79" key="MultipleFileMergeDialog" timestamp="1576918538192">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="392" y="79" key="MultipleFileMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918538192" />
     <state x="184" y="6" key="SettingsEditor" timestamp="1576833037137">
       <screen x="0" y="0" width="1366" height="728" />
     </state>
@@ -459,6 +475,14 @@
       <screen x="0" y="0" width="1366" height="728" />
     </state>
     <state x="92" y="92" width="1182" height="544" key="dock-window-1/0.0.1366.728@0.0.1366.728" timestamp="1576349821295" />
+    <state x="445" y="76" key="git4idea.branch.GitSmartOperationDialog" timestamp="1576918477500">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="445" y="76" key="git4idea.branch.GitSmartOperationDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918477500" />
+    <state x="467" y="155" key="git4idea.merge.GitMergeDialog" timestamp="1576918622753">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="467" y="155" key="git4idea.merge.GitMergeDialog/0.0.1366.728@0.0.1366.728" timestamp="1576918622753" />
     <state x="339" y="162" key="run.anything.popup" timestamp="1576579717525">
       <screen x="0" y="0" width="1366" height="728" />
     </state>

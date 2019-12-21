@@ -6,6 +6,7 @@ node_modules/
 public/
 .deploy*/
 .idea/
+.idea/workspace.xml
 themes/
 !themes/next/_config.yml
 !themes/next/_layout.swig
