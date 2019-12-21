@@ -9,6 +9,7 @@ categories: 源码解读系列
 
 > Throwable类是整个异常体系类的父类，它实现了Serializable接口，表示它能够被序列化。它的子类主要是Error和Exception类，以及一个StackRecorder类（不常见）。
 ---
+<!--more-->
 
 ## Throwable类图
 

@@ -7,6 +7,7 @@ categories: 语法模板系列
 > 原文链接:<https://www.zybuluo.com/mdeditor>
 >
 > 迎使用 Cmd Markdown 编辑阅读器
+<!--more-->
 
 ------
 

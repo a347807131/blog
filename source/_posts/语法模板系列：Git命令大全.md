@@ -5,6 +5,8 @@ tags: 语法模板
 categories: 知识点系列
 ---
 > 转自：https://www.jianshu.com/p/46ffff059092
+<!--more-->
+
 # 总览
 ## 命令大全
 ![overall](https://s2.ax1x.com/2019/12/15/QWr2ge.jpg)

@@ -14,7 +14,7 @@ one of the those rare smiles with a quality of eternal reassurance in it,
 that you may come across four or five times in life.
 
 ##chapter 7 
-* 
+ 
 * He started up on his tiptoes and then would have collapsed to his knees [had not Tom held him upright].
 * Self-consciously, with his authoritative arms breaking the way, we pushed through the still-gathering crowd,
 passing a hurried doctor, case in hand, who had [been sent for in wild hope] an hour ago.

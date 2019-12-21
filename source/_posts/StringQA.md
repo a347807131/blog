@@ -1,9 +1,12 @@
 ---
-title: my first hexo blog
+title: 知识点：关于字符串的两个问题
 date: 2018-04-23 14:15:38
-tags:
+tags: 字符串
+categories: 知识点系列
 ---
 
+>关于字符串的两个问题
+<!--more-->
 #一些问题
 
 ## 如何计算一个字符串所占空间大小

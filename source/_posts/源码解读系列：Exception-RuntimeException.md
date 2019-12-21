@@ -9,6 +9,7 @@ categories: 源码解读系列
 ## 简介
 > 本次解读`Exception`与`RunTimeException`的源码，以及在流程控制中的使用细节。
 ---
+<!--more-->
 
 ## 体系
 ![exception-structure](https://raw.githubusercontent.com/a347807131/blog/master/ms/uml/exception-structure.jpg)

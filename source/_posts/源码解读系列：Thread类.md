@@ -8,6 +8,7 @@ categories: 源码解读系列
 ## 简介
 
     Thread类是Java并发编程的基础，是对多线程编程的实现，底层大量使用了native调用C/C++实现的API，是jdk中也非常基础也非常重要的类。
+<!--more-->
 
 ## 类图
 

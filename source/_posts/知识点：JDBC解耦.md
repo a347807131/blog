@@ -6,6 +6,8 @@ tags: 解耦
 categories: 知识点系列
 ---
 
+> 摘要
+<!--more-->
 ## JDBC
 
 ```java

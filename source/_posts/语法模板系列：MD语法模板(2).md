@@ -7,6 +7,7 @@ categories: 语法模板系列
 > 原文链接：<https://www.mdeditor.com/>
 
 # 欢迎使用 Markdown在线编辑器 MdEditor
+<!--more-->
 
 **Markdown是一种轻量级的「标记语言」**
 

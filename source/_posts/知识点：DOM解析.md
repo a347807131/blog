@@ -5,6 +5,8 @@ tags:
 categories: 知识点系列
 ---
 
+> 摘要
+<!--more-->
 <div id="maincontent">
 
 <h1>XPath 语法</h1>

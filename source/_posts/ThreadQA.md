@@ -1,8 +1,11 @@
 ---
-title: ThreadQA
+title: 知识点：线程相关问题
 date: 2018-04-29 11:49:41
-tags: 线程 进程 并发
+tags: 多线程
+categories: 知识点系列
 ---
+> 多线程知识点
+<!--more-->
 
 ## yield方法可以实现那些功能？
 
