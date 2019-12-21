@@ -2,93 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c1a3e491-b496-4a36-9c92-1485c566b55b" name="Default" comment="添加live2d动画效果">
-      <change afterPath="$PROJECT_DIR$/source/_posts/caogao.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_drafts/caogao.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/Jottings.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/StringQA.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/ThreadQA.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：《了不起的盖兹比》自翻-第一章.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：《活着》摘选.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：一个不切实际的想法.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：不平等世界里的寒门之子.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：关于上课占座的建议.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：关于社会的一点杂谈.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：检讨前后——节选自《三重门》.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：流落街头的理科状元.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：海燕.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：至无限接近的你.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读《活着》——寒梅独放.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读《红与黑》主人公——于连.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：读尼采之人生没有意义.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/书斋：静始于声.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/北邮嵌入式课程作业.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：尼采哲学摘要.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：概率论与数理统计.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：狭义道德的由来.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学(宏观部分).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：西方经济学-微观部分.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/学习笔记系列：高等数学-下册.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/小技巧：华丽的分割线.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：30岁左右的人，来谈谈你犯了哪些错误？.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：一技之长的命运.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：为了那一个羡慕的眼神.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：为什么职场上会有这么多不靠谱的人？.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：人口红利的时代.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：从旧闻说起当下的职场生态.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：令人悲伤的五千块定律.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：你是如何逐渐对曾经深信不疑的东西产生怀疑的？.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：其实，我们都一样.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：判断行业好坏的一泡污双杀定律.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：在一家离职率高的公司上班体验.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：大有大的好，小有小的坑.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：如何评价京东内部发文《坚决裁掉因家庭原因和身体原因不拼命的员工》.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们是如何走到这一步的.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：我们真的不一样吗？.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：既是红利又是悲剧.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：深夜怀疑式痛哭.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-1.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：王奋斗求变记-后记.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：知识真的是你的财富吗？.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：职场上那些老前辈们的恶意.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：胡扯一下上班守恒定律.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：被定义的失败.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：那些全是故事的好同学.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/弗兰克扬：那些正确而无用的废话.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：书籍.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：待办事项.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：第九艺术.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/清单系列：系列列表.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读清单.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Class&amp;Object.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Exception-RuntimeException.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：HashSetHashMap.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Socket编程(Socket).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：ThreadLocal.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Thread类.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：Throwable类(1).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/源码解读系列：socket编程(SocketImpl).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知乎问答系列：如何评价 Netflix 原创纪录片《美国工厂》.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：DOM解析.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：HTTP协议.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：JDBC解耦.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：SQL查询语句.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：css-selector语法.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：事务.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：内部类.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：英语中的修辞手法.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/知识点：英语中的半否定句式.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：Git命令大全.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：MD中数学公式整理.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：MD语法模板(1).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：MD语法模板(2).md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/语法模板系列：vim常用命令.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/读书笔记系列：The-Great-Gatsby.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/读书笔记系列：毛泽东选集第五卷.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/source/_posts/高数文档.md" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/themes/next/layout/_layout.swig" beforeDir="false" afterPath="$PROJECT_DIR$/themes/next/layout/_layout.swig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/source/_posts/hello-world.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -103,7 +17,7 @@
     </option>
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/themes/next" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1V0cSQOY359f1G7sitCic1BN9aP" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -137,17 +51,17 @@
     <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\备份\blog\source\_posts" />
+      <recent name="$PROJECT_DIR$/ms/uml" />
+      <recent name="$PROJECT_DIR$/rrx" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\备份\blog\source\_posts" />
       <recent name="D:\备份\blog" />
       <recent name="D:\备份\blog\source" />
       <recent name="$PROJECT_DIR$/ms/uml/morning" />
       <recent name="$PROJECT_DIR$/ms" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="D:\备份\blog\source\_posts" />
-      <recent name="$PROJECT_DIR$/ms/uml" />
-      <recent name="$PROJECT_DIR$/rrx" />
     </key>
   </component>
   <component name="RunManager">
