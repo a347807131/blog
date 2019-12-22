@@ -1,5 +1,5 @@
 ---
-title: 知识点：线程相关问题
+title: 线程相关问题
 date: 2018-04-29 11:49:41
 tags: 多线程
 categories: 知识点系列
