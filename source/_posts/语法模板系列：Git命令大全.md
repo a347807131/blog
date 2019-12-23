@@ -11,7 +11,7 @@ categories: 知识点系列
 ## 命令大全
 ![overall](https://s2.ax1x.com/2019/12/15/QWr2ge.jpg)
 ## 工作图
-![12](https://upload-im:wages.jianshu.io/upload_images/18087435-2b52aaf65be47442.jpg)
+![lptcL9.jpg](https://s2.ax1x.com/2019/12/23/lptcL9.jpg)
 
 ----
 # 命令详解
@@ -184,6 +184,8 @@ $ git remote -v
 $ git remote show [remote]
 # 增加一个新的远程仓库，并命名
 $ git remote add [shortname] [url]
+# 修改远程仓库链接
+$ git remote origin set-url [url]
 # 取回远程仓库的变化，并与本地分支合并
 $ git pull [remote] [branch]
 # 上传本地指定分支到远程仓库
