@@ -11,7 +11,7 @@ categories: 知识点系列
 ## 命令大全
 ![overall](https://s2.ax1x.com/2019/12/15/QWr2ge.jpg)
 ## 工作图
-![12](https://upload-images.jianshu.io/upload_images/18087435-2b52aaf65be47442.jpg)
+![12](https://upload-im:wages.jianshu.io/upload_images/18087435-2b52aaf65be47442.jpg)
 
 ----
 # 命令详解
