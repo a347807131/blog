@@ -88,3 +88,15 @@ search:
   field: post
   format: html
   limit: 10000
+
+algolia:
+  applicationID: 'R5T0Z0L6HT'
+  #serach-only api key放这里并没有什么用
+  apiKey: 'bb79f57d16adcdf29e497ee48d674525'
+
+  #admin key 9128922da3db0da1fc0bb23c76faf03b
+  #admin key 在本地进行更新索引到algolia需要设置的全局环境变量HEXO_ALGOLIA_INDEXING_KEY的值，
+  #否则没有权限提交
+
+  indexName: 'hexo_blog'
+  chunkSize: 5000
