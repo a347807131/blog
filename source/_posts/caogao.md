@@ -6,7 +6,7 @@ categories:
 mathjax: true
 ---
 
-
+<iframe src="//player.bilibili.com/player.html?aid=26653295&cid=45844765&page=1" scrolling="no" border="0" frameborder="no" framespacing="0" allowfullscreen="true"> </iframe>
 >$$
 \begin{equation}
 \begin{split}
