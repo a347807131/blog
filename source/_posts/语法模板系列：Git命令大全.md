@@ -219,3 +219,14 @@ $ git revert [commit]
 # 暂时将未提交的变化移除，稍后再移入
 $ git stash
 ```
+
+## Git Submodule
+
+```bash
+git clone <repository> --recursive #递归的方式克隆整个项目
+git submodule add <repository> <path> #添加子模块
+git submodule init #初始化子模块
+git submodule update #更新子模块 [--init] [--recursive]
+git submodule foreach git pull #拉取所有子模块
+```
+
