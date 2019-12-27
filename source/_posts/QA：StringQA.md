@@ -1,8 +1,8 @@
 ---
 title: 关于字符串的两个问题
 date: 2018-04-23 14:15:38
-tags: 字符串
-categories: 知识点系列
+tags: String
+categories: 问答系列
 ---
 
 >关于字符串的两个问题

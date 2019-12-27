@@ -1,10 +1,10 @@
 ---
-title: 概率论与数理统计(第一章作业)
+title: 概率论与数理统计(作业部分)
 date: 2019-12-22 16:17:23
 tags: 
 - 作业
 - 概率论
-categories: 作业系列
+categories: 问答系列
 mathjax: true
 ---
 摘要
