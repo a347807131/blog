@@ -291,3 +291,36 @@ $$
 - 要素可以充分自由的流动。
 
 把同时处于完全竞争产品市场和完全竞争要素市场的厂商称为`完全竞争厂商`。
+
+## 劳动供给曲线
+
+### 事件资源在闲暇和劳动供给之间的分配
+
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577715440045&di=9b242df05d65c6ff74edcc61c7c3d4e1&imgtype=jpg&src=http%3A%2F%2Fimg4.imgtn.bdimg.com%2Fit%2Fu%3D3253535249%2C56444503%26fm%3D214%26gp%3D0.jpg)
+
+### 消费者的劳动供给曲线
+
+![](https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1577715526334&di=c51be6cc2a83f0eb4948a562a1e9d638&imgtype=0&src=http%3A%2F%2Fe.100xuexi.com%2Fuploads%2Febook%2F9d28dae2331a4a4f94c6bc246ee49fe3%2Fmobile%2Fepub%2FOEBPS%2Fimages%2Fimage103.jpg)
+
+## 资本的供给曲线和利息的决定
+
+### 资本
+
+由经济制度本身产生出来并被用做投入要素以便进一步生产更多的商品和劳务的物品。
+
+**特点**
+
+- 数量是可以改变的，即它可以通过人们的经济活动生产出来；
+- 它之所以被生产出来，其目的是为了以此而获得更多的商品和劳务；
+- 它作为投入要素，即通过用于生产过程来得到更多的商品和劳务的；
+
+### 利息
+
+作为生产服务，资本也有一个价格，即使用资本(或资本服务)的价格，或者说，资本所有权所得到的价格。通常被称为利率，并用$r$表示。
+
+公式表示：
+$$
+r=\frac{Z}{P}\\
+或 r=\frac{Z+\Delta P}{P}
+$$
+其中$Z$为资本服务的年收入，$P$为资本价值，$\Delta P$为资本价值增量。
