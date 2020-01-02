@@ -1,6 +1,7 @@
 name: Hexo Auto-Deploy
 on: [push]
-
+  branches:
+    - master
 jobs:
   build:
     name: Hexo Auto-Deploy by GitHub Actions
