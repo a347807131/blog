@@ -35,20 +35,3 @@ jobs:
           git add .
           git commit -am "Deployed to Github by GitHub Actions ..."
           git push origin master
-      - name: 6. deploy 'public files' to 'gitee.com/hexoblog' repo
-        env:
-          GT_REF: https://947124233:${{secrets.GT_Token}}@gitee.com/947124233/hexoblog.git
-        run: |
-          git checkout gitee
-          git status
-          git merge master
-          git add .
-          git commit -am up
-          git push
-          hexo g
-          git clone ${GT_REF} gt-public
-          cp -rf public/* gt-public/
-          cd gt-public/
-          git add .
-          git commit -am "Deployed to Gitee by Github Actions"
-          git push
