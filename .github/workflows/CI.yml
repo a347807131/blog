@@ -1,17 +1,23 @@
-name: CI
-
-on: [push]
-
+on: push
+  branchs: master
+name: Deploy
 jobs:
   build:
-
+    name: Build
     runs-on: ubuntu-latest
-
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+      - name: Clean
+        uses: heowc/action-hexo@master
+        with:
+          args: clean
+      - name: Generate
+        uses: heowc/action-hexo@master
+        with:
+          args: generate
+      - name: Deploy
+        uses: heowc/action-hexo@master
+        env:
+          EMAIL: civin@bupt.edu.cn
+          NAME: civin
+        with:
+          args: deploy
