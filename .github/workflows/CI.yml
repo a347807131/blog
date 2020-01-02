@@ -1,5 +1,4 @@
 on: push
-  branches: master
 name: Deploy
 jobs:
   build:
