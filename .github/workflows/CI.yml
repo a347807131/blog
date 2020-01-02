@@ -1,17 +1,38 @@
-name: CI
-
+name: Hexo Auto-Deploy
 on: [push]
 
 jobs:
   build:
-
+    name: Hexo Auto-Deploy by GitHub Actions
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v1
-    - name: Run a one-line script
-      run: echo Hello, world!
-    - name: Run a multi-line script
-      run: |
-        echo Add other actions to build,
-        echo test, and deploy your project.
+      - name: 1. git checkout...
+        uses: actions/checkout@v1
+
+      - name: 2. setup nodejs...
+        uses: actions/setup-node@v1
+
+      - name: 3. install hexo...
+        run: |
+          npm install hexo-cli -g
+          npm install
+
+      - name: 4. hexo generate public files...
+        run: |
+          hexo clean
+          hexo g
+
+      - name: 5. deploy 'public files' to 'xxx.github.io' repo...
+        env:
+          GH_REF: https://shenbo:${{ secrets.M_Token }}@github.com/a347807131/a347807131.github.io.git
+        run: |
+          git config --global user.name "civin"
+          git config --global user.email "civin@bupt.edu.cn"
+
+          git clone ${GH_REF} hexo-public
+          cp -rf public/* hexo-public/
+          cd hexo-public
+          git add .
+          git commit -am "Deployed by GitHub Actions ..."
+          git push origin master
