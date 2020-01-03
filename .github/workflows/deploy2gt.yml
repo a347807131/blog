@@ -1,4 +1,4 @@
-name: Hexo Auto-Deploy
+name: Hexo Auto-Deploy to Github
 on:
   push:
     branches:
