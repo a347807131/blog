@@ -22,16 +22,15 @@ jobs:
       - name: 4. hexo generate public files...
         run: |
           hexo clean
-          hexo g
       - name: 5. deploy 'public files' to 'xxx.github.io' repo...
         env:
           GH_REF: https://a347807131:${{ secrets.GH_Token }}@github.com/a347807131/a347807131.github.io.git
         run: |
           git config --global user.name "civin"
           git config --global user.email "civin@bupt.edu.cn"
-          git clone ${GH_REF} gh-public
-          cp -rf public/* gh-public/
-          cd gh-public
+          git clone ${GH_REF} public
+          hexo g
+          cd public
           git add .
           git commit -am "Deployed to Github by GitHub Actions ..."
           git push origin master

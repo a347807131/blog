@@ -1,5 +1,5 @@
 ---
-title: 系统依赖清单
+title: 系统环境及依赖清单
 date: 2020-01-03 13:21:11
 tags: 
 - 清单
@@ -23,7 +23,7 @@ mathjax:
 | sccop       | windows下的包管理器              |                   |      |
 | Java        |                                  | openjdk           |      |
 | aria2       |                                  |                   |      |
-| boolbox app | jetbtain公式的idea开发工具管理器 | jetbrains-toolbox |      |
+| toolbox app | jetbtain公式的idea开发工具管理器 | jetbrains-toolbox |      |
 | python      |                                  |                   |      |
 | chrome      | 浏览器                           |                   |      |
 | typora      | md编辑器                         |                   |      |
@@ -58,15 +58,15 @@ mathjax:
 
 ### 安装包
 
-| 名称    | 描述             | 官网地址                  |      |
-| ------- | ---------------- | ------------------------- | ---- |
-| 钉钉    |                  | https://www.dingtalk.com/ |      |
-| 微信    |                  | https://weixin.qq.com/    |      |
-| Mathpix | 公式图片识别软件 | https://mathpix.com/      |      |
-|         |                  |                           |      |
-|         |                  |                           |      |
-|         |                  |                           |      |
-|         |                  |                           |      |
-|         |                  |                           |      |
-|         |                  |                           |      |
+| 名称      | 描述             | 官网地址                  |      |
+| --------- | ---------------- | ------------------------- | ---- |
+| 钉钉      |                  | https://www.dingtalk.com/ |      |
+| 微信      |                  | https://weixin.qq.com/    |      |
+| Mathpix   | 公式图片识别软件 | https://mathpix.com/      |      |
+| Matlap    |                  | https://ww2.mathworks.cn/ |      |
+| Photoshop |                  |                           |      |
+| Axure     |                  | https://www.axure.com.cn/ |      |
+|           |                  |                           |      |
+|           |                  |                           |      |
+|           |                  |                           |      |
 
