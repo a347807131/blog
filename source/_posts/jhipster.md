@@ -2,7 +2,7 @@
 title: JHipster
 date: 2020-01-03 14:21:59
 tags:
-categories:
+categories: 类库工具
 mathjax:
 ---
 **摘要**

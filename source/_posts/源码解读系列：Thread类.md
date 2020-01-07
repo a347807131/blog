@@ -1,8 +1,8 @@
 ---
 title: Thread类解读
 date: 2018-04-25 23:00:49
-tags: 解读
-categories: 源码解读系列 
+tags: 源码
+categories: 源码解读 
 ---
 
 ## 简介

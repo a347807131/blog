@@ -2,7 +2,7 @@
 title: HTTP协议
 date: 2019-12-15 10:24:49
 tags: 知识点
-categories: 知识点系列
+categories: 知识点
 ---
 
 > 摘要

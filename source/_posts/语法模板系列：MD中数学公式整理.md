@@ -5,7 +5,7 @@ tags:
 - MD
 - LateX 
 categories:
-- 语法模板系列
+- 语法模板
 ---
 
 > 原文链接：

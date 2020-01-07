@@ -1,8 +1,8 @@
 ---
 title: 语法模板系列：Git命令大全
 date: 2019-12-15 02:37:34
-tags: 语法模板
-categories: 知识点系列
+tags: 语法
+categories: 语法模板
 ---
 > 转自：https://www.jianshu.com/p/46ffff059092
 <!--more-->

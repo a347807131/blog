@@ -2,7 +2,7 @@
 title: 读书笔记系列：The Great Gatsby
 tags: 读书笔记
 date: 2019-12-15 12:08:56
-categories: 读书笔记系列
+categories: 读书笔记
 ---
 
 

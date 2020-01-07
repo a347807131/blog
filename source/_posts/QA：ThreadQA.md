@@ -2,7 +2,7 @@
 title: 线程相关问题
 date: 2018-04-29 11:49:41
 tags: 多线程
-categories: 问答系列
+categories: 问答
 ---
 > 多线程知识点
 <!--more-->

@@ -2,6 +2,7 @@
 title: 知乎问答系列：如何评价 Netflix 原创纪录片《美国工厂》?
 date: 2019-12-16 13:36:44
 tags:
+categories: 知乎
 ---
 >原文链接：如何评价 Netflix 原创纪录片《美国工厂》？ - 王凡的回答 - 知乎
       <https://www.zhihu.com/question/342016897/answer/802878883>

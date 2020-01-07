@@ -2,7 +2,9 @@
 title: Heroku
 date: 2020-01-02 01:25:55
 tags:
-categories:
+- 工具
+- Heroku
+categories: 类库工具
 mathjax:
 ---
 **摘要**
