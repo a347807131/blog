@@ -4,7 +4,7 @@ date: 2020-01-03 13:21:11
 tags: 
 - 清单
 - windows
-linux
+- linux
 categories: 清单
 mathjax:
 ---
