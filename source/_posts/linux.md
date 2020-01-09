@@ -10,6 +10,7 @@ mathjax:
 
 <!--more-->
 **摘要**
+
 >
 
 <!--more-->
@@ -34,6 +35,47 @@ $ echo "deb https://dl.yarnpkg.com/debian/ stable main" | sudo tee /etc/apt/sour
 ```bash
 sudo apt-get update && sudo apt-get install yarn
 ```
+
+### 镜像源
+
+```html
+http://mirrors.ustc.edu.cn/ubuntu/
+```
+
+备份
+
+```bash
+sudo cp /etc/apt/sources.list /etc/apt/sources.list.backup
+```
+
+编辑源码列表文件
+
+```bash
+sudo vim /etc/apt/sources.list
+```
+
+刪除原文件内容，添加新的源列表(中科大)
+
+```bash
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+```
+
+更更新
+
+```bash
+sudo apt-get update
+```
+
+
 
 ---
 

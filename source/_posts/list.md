@@ -70,3 +70,142 @@ mathjax:
 |           |                  |                           |      |
 |           |                  |                           |      |
 
+## 镜像源设置
+
+### pip
+
+```bash
+# https://mirrors.ustc.edu.cn/pypi/web/simple
+$pip config set global.index-url [url] 
+```
+
+### apt
+
+> 1.原文件备份
+>
+> ```bash
+> sudo cp /etc/apt/sources.list /etc/apt/sources.list.bak
+> ```
+>
+> 2.编辑源列表文件
+>
+> ```bash
+> sudo vim /etc/apt/sources.list
+> ```
+>
+> 3.将原来的列表删除，添加如下内容（中科大镜像源）
+>
+> ```bash
+> deb http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+> deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+> deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+> deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+> deb http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+> deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial main restricted universe multiverse
+> deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-security main restricted universe multiverse
+> deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-updates main restricted universe multiverse
+> deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-proposed main restricted universe multiverse
+> deb-src http://mirrors.ustc.edu.cn/ubuntu/ xenial-backports main restricted universe multiverse
+> ```
+>
+> 4、运行`sudo apt-get update`
+>
+> ————————————————
+> 版权声明：本文为CSDN博主「zgljl2012」的原创文章，遵循 CC 4.0 BY-SA 版权协议，转载请附上原文出处链接及本声明。
+> 原文链接：https://blog.csdn.net/zgljl2012/article/details/79065174/
+
+### Maven
+
+在settings.xml中添加镜像设置
+
+> 
+>
+> ```xml
+> <mirrors>
+> 	<mirror>
+>         <id>alimaven</id>
+>         <name>aliyun maven</name>
+>         <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+>         <mirrorOf>central</mirrorOf>
+>     </mirror>
+>     <mirror>
+>         <id>central</id>
+>         <name>Maven Repository Switchboard</name>
+>         <url>http://repo1.maven.org/maven2/</url>
+>         <mirrorOf>central</mirrorOf>
+>     </mirror>
+>     <mirror>
+>         <id>repo2</id>
+>         <mirrorOf>central</mirrorOf>
+>         <name>Human Readable Name for this Mirror.</name>
+>         <url>http://repo2.maven.org/maven2/</url>
+>     </mirror>
+>     <mirror>
+>         <id>ibiblio</id>
+>         <mirrorOf>central</mirrorOf>
+>         <name>Human Readable Name for this Mirror.</name>
+>         <url>http://mirrors.ibiblio.org/pub/mirrors/maven2/</url>
+>     </mirror>
+>     <mirror>
+>         <id>jboss-public-repository-group</id>
+>         <mirrorOf>central</mirrorOf>
+>         <name>JBoss Public Repository Group</name>
+>         <url>http://repository.jboss.org/nexus/content/groups/public</url>
+>     </mirror>
+>     <!-- 中央仓库在中国的镜像 -->
+>     <mirror>
+>         <id>maven.net.cn</id>
+>         <name>oneof the central mirrors in china</name>
+>         <url>http://maven.net.cn/content/groups/public/</url>
+>         <mirrorOf>central</mirrorOf>
+>     </mirror>
+> </mirrors>
+> ```
+
+### npm
+
+> 1、查看npm源地址
+>  `npm config list`
+>
+> 结果:
+>  `metrics-registry = "http://registry.npm.taobao.org/"`
+>
+> 2、修改registry地址，比如修改为淘宝镜像源。
+>  `npm set registry https://registry.npm.taobao.org/`
+>  如果有一天你肉身FQ到国外，用不上了，用rm命令删掉它
+>  `npm config rm registry`
+>
+> 
+>
+> 作者：四月天__
+> 链接：https://www.jianshu.com/p/66f97cadd1eb
+> 来源：简书
+> 著作权归作者所有。商业转载请联系作者获得授权，非商业转载请注明出处。
+
+### Docker
+
+**一些镜像地址**
+
+```json
+Docker 官方中国区
+https://registry.docker-cn.com
+网易
+http://hub-mirror.c.163.com
+ustc
+https://docker.mirrors.ustc.edu.cn
+```
+
+
+
+直接设置 –registry-mirror 参数，仅对当前的命令有效 
+
+```bash
+$ docker run hello-world --registry-mirror=https://docker.mirrors.ustc.edu.cn
+```
+
+ 推荐使用 json 配置文件的方式，默认为 /etc/docker/daemon.json，非默认路径需要修改 dockerd 的 –config-file，在该文件中加入如下内容： 
+
+```jso
+{ "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"] }
+```
+
