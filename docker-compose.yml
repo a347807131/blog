@@ -1,0 +1,33 @@
+version: '3'
+services:
+  # 静态网页服务器容器
+  blog:
+    container_name: blog
+    image: nginx:stable-alpine
+    restart: unless-stopped
+    volumes:
+      - blog-sftp:/usr/share/nginx/html:ro
+    environment:
+      # 以下三个环境变量为jrcs/letsencrypt-nginx-proxy-companion所需
+      VIRTUAL_HOST: ${WEB_DOMAIN_NAME}, www.${WEB_DOMAIN_NAME}, blog.${WEB_DOMAIN_NAME}
+      LETSENCRYPT_HOST: ${WEB_DOMAIN_NAME}, www.${WEB_DOMAIN_NAME}, blog.${WEB_DOMAIN_NAME}
+      LETSENCRYPT_EMAIL: ${LETSENCRYPT_EMAIL}
+  # sftp服务器容器用来上传静态网页内容
+  sftp:
+    container_name: blog-sftp
+    image: atmoz/sftp:alpine
+    restart: unless-stopped
+    volumes:
+      - blog-sftp:/home/blog/upload
+    ports:
+      - "2222:22"
+    # cmd: 用户:密码:uid:gid:目录,必须写到目录,否则出现文件权限问题.
+    command: blog:${SFTP_PW}:1001:100:upload
+# 将网页服务器添加到同一docker网络中
+networks:
+  default:
+    external:
+      name: nginx-proxy
+# 设置sftp容器和blog容器的共享volume
+volumes:
+  blog-sftp:
