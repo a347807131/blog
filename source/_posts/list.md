@@ -209,3 +209,17 @@ $ docker run hello-world --registry-mirror=https://docker.mirrors.ustc.edu.cn
 { "registry-mirrors": ["https://docker.mirrors.ustc.edu.cn"] }
 ```
 
+### yarn
+
+临时更改
+
+```bash
+yarn save 包的名字 --registry https://registry.npm.taobao.org/
+```
+
+全局更改
+
+```bash
+yarn config set registry https://registry.npm.taobao.org/
+```
+
