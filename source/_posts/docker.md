@@ -1,18 +1,17 @@
 ---
-title: Docker在ubuntu系统下的安装
+title: Docker系列(1):Docker在ubuntu系统下的安装
 date: 2020-01-03 13:21:11
 tags: Docker
-categories: 工具及框架
+categories: 
+- 工具及框架
+- Docker系列
 mathjax:
 ---
 **摘要**
->
+
+>收录了Docker官网的教程
 
 <!--more-->
-
-
-
-![](https://img2018.cnblogs.com/blog/1100338/201810/1100338-20181010205425908-509725301.jpg)
 
 ![](https://img2018.cnblogs.com/blog/1100338/201810/1100338-20181012214101184-1339527466.jpg)
 

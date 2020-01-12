@@ -1,8 +1,10 @@
 ---
-title: dcker命令
+title: Dcker系列(2):dcker命令
 date: 2020-01-03 14:40:42
 tags:
 categories:
+- 工具及框架
+- Docker系列
 mathjax:
 ---
 **摘要**
@@ -10,7 +12,9 @@ mathjax:
 
 <!--more-->
 
+# 命令总览
 
+![](https://img2018.cnblogs.com/blog/1100338/201810/1100338-20181010205425908-509725301.jpg)
 
 ![](https://img2018.cnblogs.com/blog/1100338/201810/1100338-20181014202945937-1677031749.png)
 
@@ -177,5 +181,20 @@ CMD command param1 param2#：shell 形式。
 
 ```dockerfile
 CMD ["app.py"]
+```
+
+## Docker-machine
+
+> https://www.jianshu.com/p/a40c07f9f456
+
+```bash
+#!/bin/bash
+
+# 本脚本用于优化虚拟机的docker镜像源，修改为与localhost一样的中科大源
+for NODE in `seq 1 5`
+do
+  docker-machine scp /etc/docker/daemon.json node-${NODE}:/home/docker
+  docker-machine ssh node-${NODE} 'sudo mv /home/docker/daemon.json /etc/docker/daemon.json && sudo chown root:root /etc/docker/daemon.json && sudo kill -SIGHUP $(pidof dockerd)'
+done
 ```
 
