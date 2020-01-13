@@ -80,7 +80,7 @@ theme: next
 deploy:
   type: git
   repo:
-      github: git@github.com:a347807131/a347807131.git.io.git,master
+      github: git@github.com:a347807131/a347807131.github.io.git,master
 
 #
 search:
