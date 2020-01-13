@@ -1,6 +1,6 @@
 env:
   global:
-    - GH_REF: https://a347807131:${{ TK4CI }}@github.com/a347807131/a347807131.github.io.git
+    - GH_REF: github.com/a347807131/a347807131.github.io.git
     - EMAIL: civin@bupt.edu.cn
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
@@ -38,13 +38,13 @@ install:
 before_script:
   - git config user.name "civin"
   - git config user.email "${MAIL}"
-  - git clone ${GH_REF} public
 
 # 执行清缓存，生成网页操作
 script:
   - hexo clean
   - hexo generate
   - cd public
+  - git init
   - git add .
   - git commit -am "deployed by travis ci"
-  - git push origin master
+  - - git push --force --quiet "https://${TK4CI}@${GH_REF}" master:master
