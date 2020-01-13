@@ -25,6 +25,7 @@ jobs:
 
       - name: Setup Hexo Dependencies
         run: |
+          export TZ='Asia/Shanghai' # 更改时区
           npm install hexo-cli -g
           npm install
 
