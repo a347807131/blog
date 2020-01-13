@@ -1,0 +1,22 @@
+- var d = theme.disqus && theme.disqus.enable
+- var dj = theme.disqusjs && theme.disqusjs.enable
+- var l = theme.laibili && theme.laibili.enable
+- var gt = theme.gitalk && theme.gitalk.enable
+- var v = theme.valine && theme.valine.enable
+
+if d || dj || l || gt || v
+  hr
+  #post-comment
+    .comment_headling
+      i.fa.fa-comments.fa-fw(aria-hidden="true")
+      span= ' ' + _p('comment')
+    if d
+      include disqus
+    else if dj
+      include disqusjs
+    else if l
+      include laibili
+    else if gt
+      include gitalk
+    else if v
+      include valine

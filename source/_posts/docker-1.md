@@ -20,13 +20,6 @@ mathjax:
 
 ![lIgpp6.png](https://s2.ax1x.com/2020/01/11/lIgpp6.png)
 
-在windows下docker-machine的启动
-
-```bash
-docker-machine start
-docker-machine env | Invoke-Expression
-```
-
 - ## 国内镜像地址
 
   - [docker官网中国区镜像](https://www.docker-cn.com/)

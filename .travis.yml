@@ -1,6 +1,7 @@
 env:
   global:
-    - GH_REF: github.com/a347807131/a347807131.github.io.git
+    - GH_REF: https://${TK4CI}@github.com/a347807131/a347807131.github.io.git
+    - GT_REF: https://947124233:${GT_TOKEN}@gitee.com/947124233/hexoblog.git
     - EMAIL: civin@bupt.edu.cn
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
@@ -37,7 +38,7 @@ install:
   # 设置git提交名，邮箱；替换真实token到_config.yml文件
 before_script:
   - git config user.name "civin"
-  - git config user.email "${MAIL}"
+  - git config user.email "${EMAIL}"
 
 # 执行清缓存，生成网页操作
 script:
@@ -47,4 +48,12 @@ script:
   - git init
   - git add .
   - git commit -am "deployed by travis ci"
-  - - git push --force --quiet "https://${TK4CI}@${GH_REF}" master:master
+  - git push --force --quiet "${GH_REF}" master:master
+  #推送到gitee
+  - cd ..
+  - git pull origin gitee
+  - hexo g
+  - cd public
+  - git add .
+  - git commit -am "deployed by travis ci"
+  - git push --force --quiet "${GT_REF}" master:master
