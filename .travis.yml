@@ -36,8 +36,9 @@ install:
 
   # 设置git提交名，邮箱；替换真实token到_config.yml文件
 before_script:
+  - export TZ='Asia/Shanghai' # 更改时区
   - git config user.name "civin"
-  - git config user.email "${MAIL}"
+  - git config user.email "${EMAIL}"
 
 # 执行清缓存，生成网页操作
 script:
@@ -47,4 +48,4 @@ script:
   - git init
   - git add .
   - git commit -am "deployed by travis ci"
-  - - git push --force --quiet "https://${TK4CI}@${GH_REF}" master:master
+  - git push --force --quiet "https://${TK4CI}@${GH_REF}" master:master
