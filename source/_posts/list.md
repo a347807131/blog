@@ -223,3 +223,17 @@ yarn save 包的名字 --registry https://registry.npm.taobao.org/
 yarn config set registry https://registry.npm.taobao.org/
 ```
 
+### Docker
+
+编辑/etc/docker/daemon.json文件，并输入docker-cn镜像源地址
+
+```bash
+sudo vim /etc/docker/daemon.json
+```
+
+```json
+{
+  "registry-mirrors": ["https://registry.docker-cn.com"]
+}
+```
+
