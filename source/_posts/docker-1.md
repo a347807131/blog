@@ -60,6 +60,8 @@ $docker attach [container_name]/[container_id]
 $docker run -t -i container_name/container_id /bin/bash
 ```
 
+
+
 ### 快速刪除容器和镜像
 
 刪除全部容器
@@ -72,6 +74,22 @@ docker rm $(docker ps -aq)
 
 ```
 docker stop $(docker ps -q) & docker rm $(docker ps -aq)
+```
+
+### 快速删除数据卷
+
+若要删除未使用的volume，可以使用内置程序。`volume rm`命令。
+
+列出volumes：
+
+```js
+$ docker volume ls -qf dangling=true
+```
+
+删除：
+
+```js
+$ docker volume rm $(docker volume ls -qf dangling=true)
 ```
 
 
