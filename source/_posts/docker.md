@@ -3,7 +3,7 @@ title: Docker系列(1):Docker在ubuntu系统下的安装
 date: 2020-01-03 13:21:11
 tags: Docker
 categories: 
-- 工具及框架
+- 类库工具
 - Docker系列
 mathjax:
 ---

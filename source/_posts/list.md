@@ -32,7 +32,7 @@ mathjax:
 | virtualbox  |                                  |                   |      |
 | nodejs      |                                  |                   |      |
 | git         |                                  |                   |      |
-|             |                                  |                   |      |
+| picgo       | 图床工具                         |                   |      |
 |             |                                  |                   |      |
 |             |                                  |                   |      |
 |             |                                  |                   |      |
@@ -45,7 +45,7 @@ mathjax:
 | 名称       | 描述           | 安装                  |
 | ---------- | -------------- | --------------------- |
 | hexo       | hexo博客脚手架 | `npm install -g hexo` |
-| scraoy     | 爬虫框架       | `pip`                 |
+| scrapy     | 爬虫框架       | `pip`                 |
 | jhipster   |                |                       |
 | virtualenv |                | `pip`                 |
 |            |                |                       |
