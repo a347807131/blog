@@ -29,7 +29,7 @@ that you may come across four or five times in life.
 
 - There was a ripe mystery about it, **a hint** <u>of bedrooms</u> upstairs more beautiful and cool than other bedrooms, <u>of gay and radiant activities</u> taking place through its corridors, <u>and of romances</u> *that were not musty and laid away already in lavender but fresh and breathing and redolent of this year's shining motor cars and of dances whose flowers were scarcely withered.*
 
-  它有着引人入胜的神秘，暗示着，楼上的卧室更为美丽和凉爽，走廊上发生着赏心悦事，还有浪漫的气息——不是那种用香草保存起来，发着霉味的气息，而是新鲜还都带有生气，使人联想到今年雪亮的汽车，联想到鲜花还未枯萎的舞会的那种气息。
+  它有着引人入胜的神秘，暗示着，楼上的卧室更为美丽和凉爽，走廊上发生着赏心悦事，还有浪漫的气息——不是那种用香草保存起来，发着霉味的气息，而是新鲜还都带有生气，使人联想到今年那辆闪亮的汽车，联想到鲜花还未枯萎的舞会的那种气息。
 
   
 
@@ -53,4 +53,30 @@ that you may come across four or five times in life.
 
   在他们相爱的一个月里，他们之间的关系从来没有像现在这样亲密过，他们之间的交流也从来没有像现在这样深刻过:当她沉默的嘴唇轻轻拂过他上衣的肩时，或者当他温柔地抚摸她的指尖时，仿佛她睡着了一样。
 
-- 
+- She wanted her life shaped now, immediately——and the decision must be made by some force——of love, of money, of unquestionable practicality——that was close at hand. The force took shape in the middle of spring with the arrival of Tom Buchanan.
+
+- There was a slow, pleasant movement in the air, scarcely a wind, promising a cool, lovely day.
+
+- What could you make of that, exept ot suspect some intensity in his conception of the affair that couldn't be measured?
+
+- Just as Daisy's house had aways seemed to his more mysterious and than other houses, so his idea of the city itself, even though she was gone from it, was pervaded with a melancholy beauty.
+
+- [ ] He left, feeling that if he had searched harder, he might have found her——that he was leavig her behind.
+
+- [ ] The track curved and now it was going away from th sun, which, as it sank lower, seemed to spread itself in benediction over the vanishing city where she had drawn her breath. He stretched out his hand desperately as if to snatch only a wisp of air, to save a fragment of the spot that she had made lovely for him. But it was all going by too fast now for his blurred eyes and he knew that he had lost that part of it, the freshest and the best, forever.
+
+- "They're a rotten crowd,"I shouted across the lawn. "You're worth the whole damn bunch put together."
+
+- Just beffore noon the phone woke me and I started up with breaking out of my forehead.
+
+- Usually her voice came over the wire as something fresh and cool  as if a divot from a green golf-links had come sailing in at the office window, but this moring it seemed harsh and dry.
+
+- I couldnt have talked to her across a tea-table that day if i never talked to again in this world.
+
+- finally an exasperated central told me the wire was being kept open for long distance from Detroit.
+
+  最后，一位恼怒的接线员告诉我，从底特律到这里的长途电话线路一直是畅通的。
+
+- [ ] I suppose there'd be a curious crowd around there all day with little boys searching for dark spots in the dust, and some garrulous man telling over and over what had happened, until it became less and less real even to him and he could tell it no longer, and Myrtle Wilson's tragic achievement was forgotten.
+
+- Michaelis and several other men were with him——first four or five men, later two or three.
