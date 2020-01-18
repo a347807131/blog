@@ -13,12 +13,12 @@ categories: 源码解读
 ### HashSet
 > HashSet实现了Set接口,它不允许集合中有重复的值，当我们提到HashSet时，第一件事情就是在将对象存储在HashSet之前，要先确保对象重写equals()和hashCode()方法，这样才能比较对象的值是否相等，以确保set中没有储存相等的对象。如果我们没有重写这两个方法，将会使用这个方法的默认实现。
 
-![uml](https://raw.githubusercontent.com/a347807131/ms/master/collection/HashSet.png)
+![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200118101955.png)
 
 ### HashMap
 > HashMap实现了Map接口，Map接口对键值对进行映射。Map中不允许重复的键。Map接口有两个基本的实现，HashMap和TreeMap。TreeMap保存了对象的排列次序，而HashMap则不能。HashMap允许键和值为null。HashMap是非synchronized的，但collection框架提供方法能保证HashMap synchronized，这样多个线程同时访问HashMap时，能保证只有一个线程更改Map。
 
-![uml](https://raw.githubusercontent.com/a347807131/ms/master/collection/HashMap.png)
+![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200118102055.png)
 
 ---
 
@@ -133,7 +133,7 @@ final class Values extends AbstractCollection<V> {
 ```
 > 从HashMap的源码上可以看出，map底层本质就是两个集合，通过映射关系以确定键值关系，
   其中key为set集合，以实现map元素的无序性。
-  
+
 问题：如何保证键值之间的映射关系？
 答：Node<K,V>,map维护着Node<K,V>[]，而Node<K,V>则维护着K,V的关系。
 ```java

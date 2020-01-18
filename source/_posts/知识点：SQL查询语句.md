@@ -1,13 +1,13 @@
 ---
-title: 知识点：SQL查询语句
+title: SQL查询语句
 date: 2018-04-29 11:52:24
 tags:
-categories: 知识点
+categories: 语法模板
 ---
 
 > 摘要
 <!--more-->
-## *链表查询*
+## 链表查询
 
 ### 1.交叉查询
 
@@ -84,6 +84,6 @@ select * from t limit (offset,nums)
 ```
 ## 数据库数据类型与JDBC数据类型对照表
 
-![table](https://raw.githubusercontent.com/a347807131/ms/master/database/常用数据类型转换对照表.png)
+![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200118101053.png)
 
 

@@ -12,22 +12,24 @@ categories: 源码解读
 
 ## 类图
 
-![Thread.png](https://raw.githubusercontent.com/a347807131/ms/master/thread/Thread.png)
+![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200118101552.png)
 
 ---
 
 ## volatile关键字
 
 ### 作用
-    Java 语言中的 volatile 变量可以被看作是一种 “程度较轻的 synchronized”；与 synchronized 块相比，volatile 变量所需的编码较少，并且运行时开销也较少，但是它所能实现的功能也仅是 synchronized 的一部分。
 
+
+
+    Java 语言中的 volatile 变量可以被看作是一种 “程度较轻的 synchronized”；与 synchronized 块相比，volatile 变量所需的编码较少，并且运行时开销也较少，但是它所能实现的功能也仅是 synchronized 的一部分。
+    
     一旦一个共享变量（类的成员变量、类的静态成员变量）被volatile修饰之后，那么就具备了两层语义：
     　　1）保证了不同线程对这个变量进行操作时的可见性，即一个线程修改了某个变量的值，这新值对其他线程来说是立即可见的。（反映到硬件层的话，就是CPU的L1或者L2缓存中对应的缓存行无效）
     　　2）禁止进行指令重排序。
     volatile关键字禁止指令重排序有两层意思：
     　　1）当程序执行到volatile变量的读操作或者写操作时，在其前面的操作的更改肯定全部已经进行，且结果已经对后面的操作可见；在其后面的操作肯定还没有进行；
     　　2）在进行指令优化时，不能将在对volatile变量访问的语句放在其后面执行，也不能把volatile变量后面的语句放到其前面执行。
-
 
 <br>
 
@@ -110,7 +112,7 @@ public class ThreadTest {
 
     在Java虚拟机 中，线程从最初的创建到最终的消亡，要经历若干个状态：创建(new)、就绪(runnable/start)、运行(running)、阻塞(blocked)、等待(waiting)、时间等待(time waiting) 和 消亡(dead/terminated)。
     在给定的时间点上，一个线程只能处于一种状态，各状态的含义如下图所示：
-   ![生命周期](https://raw.githubusercontent.com/a347807131/ms/master/thread/threadstate.jpg)
+   ![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200118100458.png)
 
 ### 解释：
 
