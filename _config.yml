@@ -78,10 +78,10 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  repo:
-      github: git@github.com:a347807131/a347807131.github.io.git,master
-
+  - type: git
+    repo:
+      github: https://github.com/a347807131/a347807131.github.io.git,master
+  - type: baidu_url_submitter
 #
 search:
   path: search.xml
@@ -93,10 +93,14 @@ algolia:
   applicationID: 'R5T0Z0L6HT'
   #serach-only api key放这里并没有什么用
   apiKey: 'bb79f57d16adcdf29e497ee48d674525'
-
   #admin key 9128922da3db0da1fc0bb23c76faf03b
   #admin key 在本地进行更新索引到algolia需要设置的全局环境变量HEXO_ALGOLIA_INDEXING_KEY的值，
   #否则没有权限提交
-
   indexName: 'hexo_blog'
   chunkSize: 5000
+
+baidu_url_submit:
+  count: 1 ## 提交最新的一个链接
+  host: a347807131.github.io ## 在百度站长平台中注册的域名
+  token: gFxe8zsvK8P4CGty ## 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
+  path: baidu_urls.txt ## 文本文档的地址， 新链接会保存在此文本文档里
