@@ -52,9 +52,11 @@ script:
   - git push --force --quiet "${GH_REF}" master:master
   #推送推送到gt
   - cd ..
+  - rm -rf publich
   - sed -i "s@http://a347807131.github.io@http://947124233.gitee.io/hexoblog@g" _config.yml
-  - hexo clean
+  - sed -i "s@/hexoblog/@ @g" _config.yml
   - hexo g
+  - cd public
   - git init
   - git add .
   - git commit -am "deployed by travis ci"
