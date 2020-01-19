@@ -52,11 +52,11 @@ script:
   - git push --force --quiet "${GH_REF}" master:master
   #推送推送到gt
   - cd ..
-  - rm -rf publich
+  - rm -rf public
   - #替换网站url
   - sed -i "s@http://a347807131.github.io@http://947124233.gitee.io/hexoblog@g" _config.yml
-  - 替换根目录
-  - sed -i 's#root: /#&hexoblog/#g' _config.yml
+  - #替换根目录
+  - sed -i "s@root:@& /hexoblog@g" _config.yml
   - hexo g
   - cd public
   - git init
