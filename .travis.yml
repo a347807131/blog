@@ -1,7 +1,5 @@
 env:
   global:
-  - GH_REF: https://${TK4CI}@github.com/a347807131/a347807131.github.io.git
-  - GT_REF: https://947124233:${GT_TOKEN}@gitee.com/947124233/hexoblog.git
   - EMAIL: civin@bupt.edu.cn
 notifications:
   email:
