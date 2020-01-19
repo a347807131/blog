@@ -1,65 +1,30 @@
 env:
   global:
-    - GH_REF: https://${TK4CI}@github.com/a347807131/a347807131.github.io.git
-    - GT_REF: https://947124233:${GT_TOKEN}@gitee.com/947124233/hexoblog.git
-    - EMAIL: civin@bupt.edu.cn
-# configure notifications (email, IRC, campfire etc)
-# please update this section to your needs!
-# https://docs.travis-ci.com/user/notifications/
+  - EMAIL: civin@bupt.edu.cn
 notifications:
   email:
-    - ${EMAIL}
+  - "${EMAIL}"
   on_success: change
   on_failure: always
-
-# 指定构建环境是Node.js，当前版本是稳定版
 language: node_js
 node_js: stable
-
-
-# 设置钩子只检测blog-source分支的push变动
 branches:
   only:
-    - dev
-
-# 设置缓存文件
+  - master
 cache:
   directories:
-    - node_modules
-
-#在构建之前安装hexo环境
+  - node_modules
 before_install:
-  - export TZ='Asia/Shanghai'  # 解决时区不统一的问题
-  - npm install -g hexo-cli
-
-#安装git插件和搜索功能插件
+- openssl aes-256-cbc -K $encrypted_8b125d06f0a1_key -iv $encrypted_8b125d06f0a1_iv
+-in id_rsa.enc -out C:\\Users\\Administrator\\.ssh\\id_rsa -d
+- export TZ='Asia/Shanghai'
+- npm install -g hexo-cli
 install:
-  - npm install
-
-  # 设置git提交名，邮箱；替换真实token到_config.yml文件
+  - npm  install
 before_script:
   - git config user.name "civin"
   - git config user.email "${EMAIL}"
-
-# 执行清缓存，生成网页操作
 script:
   - hexo clean
   - hexo generate
-  - cd public
-  - git init
-  - git add .
-  - git commit -am "deployed by travis ci"
-  - git push --force --quiet "${GH_REF}" master:master
-  #推送推送到gt
-  - cd ..
-  - rm -rf public
-  - #替换网站url
-  - sed -i "s@http://a347807131.github.io@http://947124233.gitee.io/hexoblog@g" _config.yml
-  - #替换根目录
-  - sed -i "s@root:@& /hexoblog@g" _config.yml
-  - hexo g
-  - cd public
-  - git init
-  - git add .
-  - git commit -am "deployed by travis ci"
-  - git push --force --quiet "${GT_REF}" master:master
+  - hexo d
