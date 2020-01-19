@@ -20,7 +20,7 @@ node_js: stable
 # 设置钩子只检测blog-source分支的push变动
 branches:
   only:
-    - master
+    - dev
 
 # 设置缓存文件
 cache:
@@ -29,6 +29,7 @@ cache:
 
 #在构建之前安装hexo环境
 before_install:
+  - export TZ='Asia/Shanghai'  # 解决时区不统一的问题
   - npm install -g hexo-cli
 
 #安装git插件和搜索功能插件
@@ -49,3 +50,12 @@ script:
   - git add .
   - git commit -am "deployed by travis ci"
   - git push --force --quiet "${GH_REF}" master:master
+  #推送推送到gt
+  - cd ..
+  - sed -i "s@http://a347807131.github.io@http://947124233.gitee.io/hexoblog@g" _config.yml
+  - hexo clean
+  - hexo g
+  - git init
+  - git add .
+  - git commit -am "deployed by travis ci"
+  - git push --force --quiet "${GT_REF}" master:master
