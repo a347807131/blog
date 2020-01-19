@@ -6,4 +6,4 @@
 	url = https://github.com/a347807131/hexo-theme-butterfly.git
 [submodule "themes/sagiri"]
 	path = themes/sagiri
-	url = git@github.com:a347807131/hexo-theme-sagiri.git
+	url = https://github.com/a347807131/hexo-theme-sagiri.git
