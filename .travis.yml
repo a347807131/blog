@@ -1,30 +1,51 @@
 env:
   global:
-  - EMAIL: civin@bupt.edu.cn
+    - GH_REF: https://${TK4CI}@github.com/a347807131/a347807131.github.io.git
+    - GT_REF: https://947124233:${GT_TOKEN}@gitee.com/947124233/hexoblog.git
+    - EMAIL: civin@bupt.edu.cn
+# configure notifications (email, IRC, campfire etc)
+# please update this section to your needs!
+# https://docs.travis-ci.com/user/notifications/
 notifications:
   email:
-  - "${EMAIL}"
+    - ${EMAIL}
   on_success: change
   on_failure: always
+
+# 指定构建环境是Node.js，当前版本是稳定版
 language: node_js
 node_js: stable
+
+
+# 设置钩子只检测blog-source分支的push变动
 branches:
   only:
-  - master
+    - master
+
+# 设置缓存文件
 cache:
   directories:
-  - node_modules
+    - node_modules
+
+#在构建之前安装hexo环境
 before_install:
-- openssl aes-256-cbc -K $encrypted_8b125d06f0a1_key -iv $encrypted_8b125d06f0a1_iv
--in id_rsa.enc -out C:\\Users\\Administrator\\.ssh\\id_rsa -d
-- export TZ='Asia/Shanghai'
-- npm install -g hexo-cli
+  - npm install -g hexo-cli
+
+#安装git插件和搜索功能插件
 install:
-  - npm  install
+  - npm install
+
+  # 设置git提交名，邮箱；替换真实token到_config.yml文件
 before_script:
   - git config user.name "civin"
   - git config user.email "${EMAIL}"
+
+# 执行清缓存，生成网页操作
 script:
   - hexo clean
   - hexo generate
-  - hexo d
+  - cd public
+  - git init
+  - git add .
+  - git commit -am "deployed by travis ci"
+  - git push --force --quiet "${GH_REF}" master:master
