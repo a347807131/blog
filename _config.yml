@@ -17,6 +17,9 @@ url: http://a347807131.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
+permalink_pinyin:
+  enable: true
+  separator: '-' # default: '-'
 
 # Directory
 source_dir: source
@@ -39,10 +42,16 @@ post_asset_folder: false
 relative_link: false
 future: true
 highlight:
-  enable: true
+  enable: false
   line_number: true
   auto_detect: false
   tab_replace:
+
+prism_plugin:
+  mode: 'preprocess'    # realtime/preprocess
+  theme: 'tomorrow'
+  line_number: false    # default false
+  custom_css:
   
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
@@ -73,7 +82,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: butterfly
+theme: matery
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
