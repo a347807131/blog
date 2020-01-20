@@ -49,8 +49,8 @@ highlight:
 
 prism_plugin:
   mode: 'preprocess'    # realtime/preprocess
-  theme: 'tomorrow'
-  line_number: false    # default false
+  theme: 'duotone-light'
+  line_number: true    # default false
   custom_css:
   
 # Home page setting
@@ -90,7 +90,6 @@ deploy:
   - type: git
     repo:
       github: git@github.com:a347807131/a347807131.github.io.git,master
-  - type: baidu_url_submitter
 #
 search:
   path: search.xml
