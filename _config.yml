@@ -73,7 +73,7 @@ pagination_dir: page
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: matery
+theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
@@ -98,12 +98,6 @@ algolia:
   #否则没有权限提交
   indexName: 'hexo_blog'
   chunkSize: 5000
-
-baidu_url_submit:
-  count: 10 # 提交最新的一个链接
-  host: a347807131.github.io # 在百度站长平台中注册的域名
-  token: gFxe8zsvK8P4CGty # 请注意这是您的秘钥， 所以请不要把博客源代码发布在公众仓库里!
-  path: baidu_urls.txt # 文本文档的地址， 新链接会保存在此文本文档里
 
 # Live2D
 ## https://github.com/EYHN/hexo-helper-live2d
