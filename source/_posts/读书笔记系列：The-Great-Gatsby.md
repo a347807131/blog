@@ -27,12 +27,6 @@ that you may come across four or five times in life.
 
 - it was <u>as casual a thing to her as his tend out at camp</u> was to him.
 
-- There was a ripe mystery about it, **a hint** <u>of bedrooms</u> upstairs more beautiful and cool than other bedrooms, <u>of gay and radiant activities</u> taking place through its corridors, <u>and of romances</u> *that were not musty and laid away already in lavender but fresh and breathing and redolent of this year's shining motor cars and of dances whose flowers were scarcely withered.*
-
-  它有着引人入胜的神秘，暗示着，楼上的卧室更为美丽和凉爽，走廊上发生着赏心悦事，还有浪漫的气息——不是那种用香草保存起来，发着霉味的气息，而是新鲜还都带有生气，使人联想到今年那辆闪亮的汽车，联想到鲜花还未枯萎的舞会的那种气息。
-
-  
-
 - Howerver glorious might be his future as Jay Gatsby, he was at present a peniless young man without a past, and at any moment the invisible cloak of his uniform might slip from his shoulders.
 
 - He took Daisy one still October night, took her because he had no real right to touch her hand.
@@ -47,12 +41,6 @@ that you may come across four or five times in life.
 
 - The afternoon had made them tranquil for a while, as if to give them a deep memory for [the long parting the next day promised].
 
-- They had never been closer in their month of love, nor communicated more profoundly one with another than when she brushed silent lips agains his coat's shoulder or when he touched the end of her fingers, gently, as though she was asleep.
-
-  参考：
-
-  在他们相爱的一个月里，他们之间的关系从来没有像现在这样亲密过，他们之间的交流也从来没有像现在这样深刻过:当她沉默的嘴唇轻轻拂过他上衣的肩时，或者当他温柔地抚摸她的指尖时，仿佛她睡着了一样。
-
 - She wanted her life shaped now, immediately——and the decision must be made by some force——of love, of money, of unquestionable practicality——that was close at hand. The force took shape in the middle of spring with the arrival of Tom Buchanan.
 
 - There was a slow, pleasant movement in the air, scarcely a wind, promising a cool, lovely day.
@@ -62,8 +50,6 @@ that you may come across four or five times in life.
 - Just as Daisy's house had aways seemed to his more mysterious and than other houses, so his idea of the city itself, even though she was gone from it, was pervaded with a melancholy beauty.
 
 - [ ] He left, feeling that if he had searched harder, he might have found her——that he was leavig her behind.
-
-- [ ] The track curved and now it was going away from th sun, which, as it sank lower, seemed to spread itself in benediction over the vanishing city where she had drawn her breath. He stretched out his hand desperately as if to snatch only a wisp of air, to save a fragment of the spot that she had made lovely for him. But it was all going by too fast now for his blurred eyes and he knew that he had lost that part of it, the freshest and the best, forever.
 
 - "They're a rotten crowd,"I shouted across the lawn. "You're worth the whole damn bunch put together."
 
@@ -80,3 +66,37 @@ that you may come across four or five times in life.
 - [ ] I suppose there'd be a curious crowd around there all day with little boys searching for dark spots in the dust, and some garrulous man telling over and over what had happened, until it became less and less real even to him and he could tell it no longer, and Myrtle Wilson's tragic achievement was forgotten.
 
 - Michaelis and several other men were with him——first four or five men, later two or three.
+
+- The police, on the strength fo what he said to Michaelis, that he"had a way of finding out, "supposed that he spent that time going from garage to garage thereabouts inquiring for a yellow car.
+
+- By half past two
+
+- if any one phoned word was to be brought to him at the pool.
+
+- He stopped at tha garage for a pneumatic mattress that had amused his guests during the summer.
+
+- until long after there was any one to give it to if it came.
+
+- My rushing anxiously up the front steps was the first thing that alarmed any one.
+
+- With scarcely a word said, four of us, the chauffer, butler, gardener and I, hurried down to the pool.
+
+- There was a faint, barely perceptible movement of the water as the fresh flow from one end urged its way toward the drain at the other. With little ripples that were hardly the shadows of waves, the laden mattress movedirregularly down the pool. A small gust of wind that scarcely corrugated the surface was enogh to disturb its accidental course with its accidental burden. The touch of a cluster of leaves revolved it slowly, tracing, like the leg of compass, a thin red circle in the water.
+
+### Graceful sentences
+
+- The track curved and now it was going away from th sun, which, as it sank lower, seemed to spread itself in benediction over the vanishing city where she had drawn her breath. He stretched out his hand desperately as if to snatch only a wisp of air, to save a fragment of the spot that she had made lovely for him. But it was all going by too fast now for his blurred eyes and he knew that he had lost that part of it, the freshest and the best, forever.
+
+- They had never been closer in their month of love, nor communicated more profoundly one with another than when she brushed silent lips agains his coat's shoulder or when he touched the end of her fingers, gently, as though she was asleep.
+
+  参考：
+
+  在他们相爱的一个月里，他们之间的关系从来没有像现在这样亲密过，他们之间的交流也从来没有像现在这样深刻过:当她沉默的嘴唇轻轻拂过他上衣的肩时，或者当他温柔地抚摸她的指尖时，仿佛她睡着了一样。
+
+- There was a ripe mystery about it, **a hint** <u>of bedrooms</u> upstairs more beautiful and cool than other bedrooms, <u>of gay and radiant activities</u> taking place through its corridors, <u>and of romances</u> *that were not musty and laid away already in lavender but fresh and breathing and redolent of this year's shining motor cars and of dances whose flowers were scarcely withered.*
+
+  它有着引人入胜的神秘，暗示着，楼上的卧室更为美丽和凉爽，走廊上发生着赏心悦事，还有浪漫的气息——不是那种用香草保存起来，发着霉味的气息，而是新鲜还都带有生气，使人联想到今年那辆闪亮的汽车，联想到鲜花还未枯萎的舞会的那种气息。
+
+- I have an idea that Gatsby himself didn't believe it would come, and perhaps he no longer cared. If that was true he must have felt that he had lost the old warm world, paid a high price for living too long with a single dream. He must have looked up at an unfamiliar sky through frightening leaves and shivered as he found as he found what grotesque thing a rose is and how raww the sunlight was upon the scarely created greass. A new world, material without being ral, where poor ghosts, breathing dreams like air, drifted fortuitously about... like that ashen, fantastic fingure dliding toward him through the amorphous trees.
+
+- 
