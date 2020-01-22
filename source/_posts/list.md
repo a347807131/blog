@@ -58,17 +58,17 @@ mathjax:
 
 ### 安装包
 
-| 名称      | 描述             | 官网地址                  |      |
-| --------- | ---------------- | ------------------------- | ---- |
-| 钉钉      |                  | https://www.dingtalk.com/ |      |
-| 微信      |                  | https://weixin.qq.com/    |      |
-| Mathpix   | 公式图片识别软件 | https://mathpix.com/      |      |
-| Matlap    |                  | https://ww2.mathworks.cn/ |      |
-| Photoshop |                  |                           |      |
-| Axure     |                  | https://www.axure.com.cn/ |      |
-|           |                  |                           |      |
-|           |                  |                           |      |
-|           |                  |                           |      |
+| 名称      | 描述             | 官网地址                             |      |
+| --------- | ---------------- | ------------------------------------ | ---- |
+| 钉钉      |                  | https://www.dingtalk.com/            |      |
+| 微信      |                  | https://weixin.qq.com/               |      |
+| Mathpix   | 公式图片识别软件 | https://mathpix.com/                 |      |
+| Matlap    |                  | https://ww2.mathworks.cn/            |      |
+| Photoshop |                  |                                      |      |
+| Axure     |                  | https://www.axure.com.cn/            |      |
+| magnetW   |                  | https://github.com/xiandanin/magnetW |      |
+| Motrix    | download manager | https://github.com/agalwood/Motrix   |      |
+|           |                  |                                      |      |
 
 ## 镜像源设置
 
