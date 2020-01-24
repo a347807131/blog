@@ -97,12 +97,12 @@ search:
   format: html
   limit: 10000
 
-githubEmojis:
-  enable: true
-  className: github-emoji
-  inject: true
-  styles:
-  customEmojis:
+#githubEmojis:
+#  enable: true
+#  className: github-emoji
+#  inject: true
+#  styles:
+#  customEmojis:
 feed:
   type: atom
   path: atom.xml
