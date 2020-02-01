@@ -1,7 +1,8 @@
 env:
   global:
     - GH_REF: https://${TK4CI}@github.com/a347807131/a347807131.github.io.git
-    - GT_REF: https://947124233:${GT_TOKEN}@gitee.com/947124233/hexoblog.git
+    - GT_REF: https://947124233:${GT_TOKEN}@gitee.com/947124233/blog.git
+    - CD_REF: https://civin:${CD_TOKEN}@git.coding.net/Civin/blog.git
     - EMAIL: civin@bupt.edu.cn
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
@@ -49,3 +50,4 @@ script:
   - git add .
   - git commit -am "deployed by travis ci"
   - git push --force --quiet "${GH_REF}" master:master
+  - git push --force --quiet "${CD_REF}" master:master
