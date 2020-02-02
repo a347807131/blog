@@ -18,27 +18,27 @@ mathjax:
 
 ### scoop直接管理
 
-| 名称        | 描述                             | `scoop`安装       |      |
-| :---------- | :------------------------------- | ----------------- | ---- |
-| sccop       | windows下的包管理器              |                   |      |
-| Java        |                                  | openjdk           |      |
-| aria2       |                                  |                   |      |
-| toolbox app | jetbtain公式的idea开发工具管理器 | jetbrains-toolbox |      |
-| python      |                                  |                   |      |
-| chrome      | 浏览器                           |                   |      |
-| typora      | md编辑器                         |                   |      |
-| ngrok       | 内网穿透工具                     |                   |      |
-| MobaXterm   | shell                            | mobaxterm         |      |
-| virtualbox  |                                  |                   |      |
-| nodejs      |                                  |                   |      |
-| git         |                                  |                   |      |
-| picgo       | 图床工具                         |                   |      |
-|             |                                  |                   |      |
-|             |                                  |                   |      |
-|             |                                  |                   |      |
-|             |                                  |                   |      |
-|             |                                  |                   |      |
-|             |                                  |                   |      |
+| 名称         | 描述                             | `scoop`安装       |      |
+| :----------- | :------------------------------- | ----------------- | ---- |
+| sccop        | windows下的包管理器              |                   |      |
+| Java         |                                  | openjdk           |      |
+| aria2        |                                  |                   |      |
+| toolbox app  | jetbtain公式的idea开发工具管理器 | jetbrains-toolbox |      |
+| python       |                                  |                   |      |
+| chrome       | 浏览器                           |                   |      |
+| typora       | md编辑器                         |                   |      |
+| ngrok        | 内网穿透工具                     |                   |      |
+| MobaXterm    | shell                            | mobaxterm         |      |
+| virtualbox   |                                  |                   |      |
+| nodejs       |                                  |                   |      |
+| git          |                                  |                   |      |
+| picgo        | 图床工具                         |                   |      |
+| sublime-text |                                  |                   |      |
+|              |                                  |                   |      |
+|              |                                  |                   |      |
+|              |                                  |                   |      |
+|              |                                  |                   |      |
+|              |                                  |                   |      |
 
 ### 间接管理
 
