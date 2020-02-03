@@ -17,7 +17,7 @@ layout: "friends"
 例如我的博客友链，大家可以加到自己博客里哦：
 
 - **名称：**Gatsby's Blog
-- **地址：**[https://a347807131.github.io](https://a347807131.github.io)
+- **地址：**[http://gatsby.fun](http://gatsby.fun)
 - **简介：**You see, I'm Gatsby.
 - **头像：**https://avatars1.githubusercontent.com/u/24996382?s=460&v=4
 
