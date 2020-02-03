@@ -2,6 +2,7 @@
 title: 日常踩坑：搭建hexo博客中的坑
 categories:
   - 日常踩坑
+abbrlink: ff103bd6
 date: 2020-02-03 15:38:46
 tags:
 mathjax:
