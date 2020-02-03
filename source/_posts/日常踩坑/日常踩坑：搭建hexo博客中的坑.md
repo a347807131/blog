@@ -35,7 +35,9 @@ algolia踩坑
 - [ ] 移植butterfly主体下的分割线样式
 - [ ] 移植butterfly主题下的post标题样式
 - [ ] matery主题toc的编号需求
-- [ ] matery主题banner轮询不能正常进行
+- [x] matery主题banner轮询不能正常进行
 - [ ] jsdeliver cdn加速
 - [ ] 实现的图片加载时的加载图片的功能
 - [ ] 如果网站位于url子目录下，matery主题将无法正常加载
+- [ ] matery启用的代码样式插件功能无法正常使用，代码没有样式
+- [ ] matery主题的toc目录点击不跳转到指定标题
