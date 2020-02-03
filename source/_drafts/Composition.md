@@ -1,5 +1,6 @@
 ---
-title: 2019,我的毕业季
+title: '2019,我的毕业季'
+abbrlink: c2b1c30b
 date: 2019-12-27 21:27:32
 tags:
 categories:

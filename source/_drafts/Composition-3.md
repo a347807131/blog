@@ -1,8 +1,9 @@
 ---
 title: 茴香豆的茴字有四种写法
-date: 2019-12-28 06:20:23
 tags: 鲁迅
 categories: 书斋
+abbrlink: f25fd33e
+date: 2019-12-28 06:20:23
 mathjax:
 ---
 **摘要**

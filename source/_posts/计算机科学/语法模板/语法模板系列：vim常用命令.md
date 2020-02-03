@@ -4,6 +4,7 @@ tags: 语法
 categories:
   - 计算机科学
   - 语法模板
+abbrlink: f2c42bb3
 date: 2019-12-15 03:07:46
 ---
 # 1 简介

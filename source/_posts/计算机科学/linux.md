@@ -2,6 +2,7 @@
 title: linux
 categories:
   - 计算机科学
+abbrlink: 9211474f
 date: 2020-01-03 14:37:06
 tags:
 mathjax:

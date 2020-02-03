@@ -1,8 +1,9 @@
 ---
 title: 线程相关问题
-tags: 多线程 
+tags: 多线程
 categories:
   - 疑问与解答
+abbrlink: ea6f8eca
 date: 2018-04-29 11:49:41
 ---
 > 多线程知识点

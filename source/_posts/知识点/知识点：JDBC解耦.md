@@ -3,6 +3,7 @@ title: JDBC解耦
 tags: 解耦
 categories:
   - 知识点
+abbrlink: 333e746c
 date: 2018-05-05 14:06:46
 ---
 

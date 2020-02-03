@@ -4,6 +4,7 @@ tags: 语法
 categories:
   - 计算机科学
   - 语法模板
+abbrlink: 784b62bc
 date: 2019-12-15 02:22:43
 ---
 > 原文链接:<https://www.zybuluo.com/mdeditor>

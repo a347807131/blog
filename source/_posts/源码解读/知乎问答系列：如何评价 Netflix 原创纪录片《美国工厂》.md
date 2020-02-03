@@ -4,6 +4,7 @@ tags:
   - 知乎
 categories:
   - 源码解读
+abbrlink: fc47bd90
 date: 2019-12-16 13:36:44
 ---
 >原文链接：如何评价 Netflix 原创纪录片《美国工厂》？ - 王凡的回答 - 知乎

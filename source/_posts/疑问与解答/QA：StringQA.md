@@ -1,8 +1,9 @@
 ---
 title: 关于字符串的两个问题
-tags: String 
+tags: String
 categories:
   - 疑问与解答
+abbrlink: bb207bc6
 date: 2018-04-23 14:15:38
 ---
 

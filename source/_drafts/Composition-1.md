@@ -1,5 +1,6 @@
 ---
 title: 我的高中
+abbrlink: c7a0738f
 date: 2019-12-27 21:27:45
 tags:
 categories:

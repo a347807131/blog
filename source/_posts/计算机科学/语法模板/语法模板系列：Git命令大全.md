@@ -4,6 +4,7 @@ tags: 语法
 categories:
   - 计算机科学
   - 语法模板
+abbrlink: 6e5d1c89
 date: 2019-12-15 02:37:34
 ---
 > 转自：https://www.jianshu.com/p/46ffff059092

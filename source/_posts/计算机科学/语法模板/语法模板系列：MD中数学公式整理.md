@@ -6,6 +6,7 @@ tags:
 categories:
   - 计算机科学
   - 语法模板
+abbrlink: cca7eee2
 date: 2019-12-15 14:25:01
 ---
 

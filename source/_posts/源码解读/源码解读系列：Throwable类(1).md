@@ -3,6 +3,7 @@ title: 源码解读：Throwable类
 tags: 源码
 categories:
   - 源码解读
+abbrlink: 5211fcf7
 date: 2018-04-29 13:04:22
 ---
 

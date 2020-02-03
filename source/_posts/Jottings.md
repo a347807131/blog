@@ -1,5 +1,6 @@
 ---
 title: Jottings
+abbrlink: dbb7b7dd
 date: 2019-12-15 15:11:32
 tags:
 ---

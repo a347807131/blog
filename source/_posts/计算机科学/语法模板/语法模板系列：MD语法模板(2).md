@@ -4,6 +4,7 @@ tags: 语法
 categories:
   - 计算机科学
   - 语法模板
+abbrlink: 5366317f
 date: 2019-12-15 11:59:54
 ---
 > 原文链接：<https://www.mdeditor.com/>
