@@ -41,3 +41,4 @@ algolia踩坑
 - [ ] 如果网站位于url子目录下，matery主题将无法正常加载
 - [ ] matery启用的代码样式插件功能无法正常使用，代码没有样式
 - [ ] matery主题的toc目录点击不跳转到指定标题
+- [x] 修复matery主题jsdelivr和post.img会冲突的bug
