@@ -2,6 +2,7 @@
 title: 日常踩坑：scoop使用aria2下载报错
 categories:
   - 日常踩坑
+abbrlink: 38b60689
 date: 2020-02-04 21:09:37
 tags:
 mathjax:
