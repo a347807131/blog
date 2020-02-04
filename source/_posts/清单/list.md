@@ -36,7 +36,7 @@ mathjax:
 | git          |                                  |                   |      |
 | picgo        | 图床工具                         |                   |      |
 | sublime-text |                                  |                   |      |
-|              |                                  |                   |      |
+| telegram     |                                  |                   |      |
 |              |                                  |                   |      |
 |              |                                  |                   |      |
 |              |                                  |                   |      |
