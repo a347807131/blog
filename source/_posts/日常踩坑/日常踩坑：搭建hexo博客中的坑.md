@@ -42,3 +42,6 @@ algolia踩坑
 - [ ] matery启用的代码样式插件功能无法正常使用，代码没有样式
 - [ ] matery主题的toc目录点击不跳转到指定标题
 - [x] 修复matery主题jsdelivr和post.img会冲突的bug
+- [x] matery主题加入meting-js来获取在线音乐列表
+- [ ] matery主题的音乐吸底模式无效
+- [ ] hexo-tag-aplayer
