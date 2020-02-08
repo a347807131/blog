@@ -36,7 +36,7 @@ algolia踩坑
 - [ ] 移植butterfly主题下的post标题样式
 - [ ] matery主题toc的编号需求
 - [x] matery主题banner轮询不能正常进行
-- [ ] jsdeliver cdn加速
+- [x] jsdeliver cdn加速
 - [ ] 实现的图片加载时的加载图片的功能
 - [ ] 如果网站位于url子目录下，matery主题将无法正常加载
 - [ ] matery启用的代码样式插件功能无法正常使用，代码没有样式
@@ -44,4 +44,4 @@ algolia踩坑
 - [x] 修复matery主题jsdelivr和post.img会冲突的bug
 - [x] matery主题加入meting-js来获取在线音乐列表
 - [ ] matery主题的音乐吸底模式无效
-- [ ] hexo-tag-aplayer
+- [ ] hexo-tag-aplayer 
