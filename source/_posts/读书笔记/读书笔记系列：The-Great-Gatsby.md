@@ -102,3 +102,16 @@ that you may come across four or five times in life.
 - I have an idea that Gatsby himself didn't believe it would come, and perhaps he no longer cared. If that was true he must have felt that he had lost the old warm world, paid a high price for living too long with a single dream. He must have looked up at an unfamiliar sky through frightening leaves and shivered as he found as he found what grotesque thing a rose is and how raww the sunlight was upon the scarely created greass. A new world, material without being ral, where poor ghosts, breathing dreams like air, drifted fortuitously about... like that ashen, fantastic fingure dliding toward him through the amorphous trees.
 
 - 
+
+## Chapter 9
+
+- Michaelis's testimony at the inquest brought to light Wilson's suspicions of his wife.
+- Then, as he lay in his house and didn't move or breathe or speak, hour upon hour, it grew upon me that I was responsible, because no one else was interested—, I mean, with that intense personal interested to which everyone has some vague right at the end.
+- I began to have a feeling of defiance, of scornful solidarity between Gatsby and me against them all.
+- Such a mad act as that man did should make us all think.
+- He had reached an age where death no longer has the quality of ghastly surprise.
+- if He'd of lived.
+- I ejaculated an unrestrained "Huh!" 
+- I should have known better that to call him.
+- The hair in his nostrils quivered slightly, and as shook his head his eyes filed with tears.
+- 
