@@ -2,10 +2,11 @@
 title: 源码解读——Class&Object
 tags: 解读
 categories:
+  - 计算机科学
   - 源码解读
 abbrlink: 799810ea
-date: 2018-05-20 15:01:30
 cover: true
+date: 2018-05-20 15:01:30
 ---
 ## 简介
 > Object类是Java类体系的基础，所有的类包括数组都以它为父类，并实现了它的方法。可以这样讲，它是对所有实现类公共属性的抽象。
