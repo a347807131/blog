@@ -1,7 +1,7 @@
 ---
 title: 'Dcker系列(2):dcker命令'
 tags:
-  - Docker系列
+  - docker
 categories:
   - 计算机科学
   - docker

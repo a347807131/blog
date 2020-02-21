@@ -102,7 +102,7 @@ deploy:
   - type: git
     repo:
       github: git@github.com:a347807131/a347807131.github.io.git,master
-      coding: git@git.coding.net:Civin/blog.git,master
+      coding: git@e.coding.net:Civin/blog.git,master
       gittee: git@gitee.com:947124233/blog.git,master
 #
 search:
