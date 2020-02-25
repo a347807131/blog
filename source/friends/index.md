@@ -21,7 +21,7 @@ layout: "friends"
 - **简介：**You see, I'm Gatsby.
 - **头像：**https://avatars1.githubusercontent.com/u/24996382?s=460&v=4
 
-````json
+```json
   {
     "avatar": "https://avatars1.githubusercontent.com/u/24996382?s=460&v=4",
     "name": "Gatsby's Blog",
@@ -29,4 +29,4 @@ layout: "friends"
     "url": "http://gatsby.fun",
     "title": "Read More"
   }
-````
+```

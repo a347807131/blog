@@ -34,7 +34,7 @@ mathjax:
 | virtualbox   |                                  |                   |      |
 | nodejs       |                                  |                   |      |
 | git          |                                  |                   |      |
-| picgo        | 图床工具                         |                   |      |
+| picgo        | 开源图床工具                     |                   |      |
 | sublime-text |                                  |                   |      |
 | telegram     |                                  |                   |      |
 |              |                                  |                   |      |
@@ -48,7 +48,7 @@ mathjax:
 | ---------- | -------------- | --------------------- |
 | hexo       | hexo博客脚手架 | `npm install -g hexo` |
 | scrapy     | 爬虫框架       | `pip`                 |
-| jhipster   |                |                       |
+| jhipster   |                | npm                   |
 | virtualenv |                | `pip`                 |
 |            |                |                       |
 |            |                |                       |
@@ -60,17 +60,48 @@ mathjax:
 
 ### 安装包
 
-| 名称      | 描述             | 官网地址                             |      |
-| --------- | ---------------- | ------------------------------------ | ---- |
-| 钉钉      |                  | https://www.dingtalk.com/            |      |
-| 微信      |                  | https://weixin.qq.com/               |      |
-| Mathpix   | 公式图片识别软件 | https://mathpix.com/                 |      |
-| Matlap    |                  | https://ww2.mathworks.cn/            |      |
-| Photoshop |                  |                                      |      |
-| Axure     |                  | https://www.axure.com.cn/            |      |
-| magnetW   |                  | https://github.com/xiandanin/magnetW |      |
-| Motrix    | download manager | https://github.com/agalwood/Motrix   |      |
-|           |                  |                                      |      |
+| 名称                | 描述               | 官网地址                             |      |
+| ------------------- | ------------------ | ------------------------------------ | ---- |
+| 钉钉                |                    | https://www.dingtalk.com/            |      |
+| 微信                |                    | https://weixin.qq.com/               |      |
+| Mathpix             | 公式图片识别软件   | https://mathpix.com/                 |      |
+| Matlap              |                    | https://ww2.mathworks.cn/            |      |
+| Photoshop           |                    |                                      |      |
+| Axure               |                    | https://www.axure.com.cn/            |      |
+| magnetW             |                    | https://github.com/xiandanin/magnetW |      |
+| Motrix              | download manager   | https://github.com/agalwood/Motrix   |      |
+| idm等下载器         | 下载器             | https://www.lanzous.com/b0ug2rrc     |      |
+| RunningCheeseChrome | 大佬的定制版chrome | https://www.lanzous.com/b851998      |      |
+| Jetbrains toolbox   |                    |                                      |      |
+|                     |                    |                                      |      |
+|                     |                    |                                      |      |
+|                     |                    |                                      |      |
+|                     |                    |                                      |      |
+|                     |                    |                                      |      |
+|                     |                    |                                      |      |
+|                     |                    |                                      |      |
+|                     |                    |                                      |      |
+
+### Chrome浏览器扩展
+
+| 名称                            |                          | 官网                                          |
+| ------------------------------- | ------------------------ | --------------------------------------------- |
+| Jetbrains Toolbox               |                          |                                               |
+| Gitpod Online IDE               |                          |                                               |
+| Rsshub Radar                    |                          |                                               |
+| 网盘助手                        | 网盘文件下载链接获取工具 | [http://pan.newday.me](http://pan.newday.me/) |
+| adblock                         |                          |                                               |
+| onenote                         |                          |                                               |
+| Infinity新标签页                |                          |                                               |
+| Google Dictionary               |                          |                                               |
+| LastPass: Free Password Manager | 密码管理器               |                                               |
+| session buddy                   | tab管理器                |                                               |
+| full screen capture             |                          |                                               |
+|                                 |                          |                                               |
+|                                 |                          |                                               |
+|                                 |                          |                                               |
+
+
 
 ## 镜像源设置
 
