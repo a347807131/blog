@@ -12,7 +12,7 @@ mathjax:
 ---
 **摘要**
 
->记录个人电脑使用中需要配置的环境和工具
+记录个人电脑使用中需要配置的环境和工具
 
 <!--more-->
 
@@ -72,7 +72,7 @@ mathjax:
 | Motrix              | download manager   | https://github.com/agalwood/Motrix   |      |
 | idm等下载器         | 下载器             | https://www.lanzous.com/b0ug2rrc     |      |
 | RunningCheeseChrome | 大佬的定制版chrome | https://www.lanzous.com/b851998      |      |
-| Jetbrains toolbox   |                    |                                      |      |
+| Jetbrains toolbox   |                    | https://www.jetbrains.com/           |      |
 |                     |                    |                                      |      |
 |                     |                    |                                      |      |
 |                     |                    |                                      |      |
