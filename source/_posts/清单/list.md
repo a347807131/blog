@@ -60,27 +60,27 @@ mathjax:
 
 ### 安装包
 
-| 名称                | 描述               | 官网地址                             |      |
-| ------------------- | ------------------ | ------------------------------------ | ---- |
-| 钉钉                |                    | https://www.dingtalk.com/            |      |
-| 微信                |                    | https://weixin.qq.com/               |      |
-| Mathpix             | 公式图片识别软件   | https://mathpix.com/                 |      |
-| Matlap              |                    | https://ww2.mathworks.cn/            |      |
-| Photoshop           |                    |                                      |      |
-| Axure               |                    | https://www.axure.com.cn/            |      |
-| magnetW             |                    | https://github.com/xiandanin/magnetW |      |
-| Motrix              | download manager   | https://github.com/agalwood/Motrix   |      |
-| idm等下载器         | 下载器             | https://www.lanzous.com/b0ug2rrc     |      |
-| RunningCheeseChrome | 大佬的定制版chrome | https://www.lanzous.com/b851998      |      |
-| Jetbrains toolbox   |                    | https://www.jetbrains.com/           |      |
-|                     |                    |                                      |      |
-|                     |                    |                                      |      |
-|                     |                    |                                      |      |
-|                     |                    |                                      |      |
-|                     |                    |                                      |      |
-|                     |                    |                                      |      |
-|                     |                    |                                      |      |
-|                     |                    |                                      |      |
+| 名称                     | 描述               | 官网地址                                              |      |
+| ------------------------ | ------------------ | ----------------------------------------------------- | ---- |
+| 钉钉                     |                    | https://www.dingtalk.com/                             |      |
+| 微信                     |                    | https://weixin.qq.com/                                |      |
+| Mathpix                  | 公式图片识别软件   | https://mathpix.com/                                  |      |
+| Matlap                   |                    | https://ww2.mathworks.cn/                             |      |
+| Photoshop                |                    |                                                       |      |
+| Axure                    |                    | https://www.axure.com.cn/                             |      |
+| magnetW                  |                    | https://github.com/xiandanin/magnetW                  |      |
+| Motrix                   | download manager   | https://github.com/agalwood/Motrix                    |      |
+| idm等下载器              | 下载器             | https://www.lanzous.com/b0ug2rrc                      |      |
+| RunningCheeseChrome      | 大佬的定制版chrome | https://www.lanzous.com/b851998                       |      |
+| Jetbrains toolbox        |                    | https://www.jetbrains.com/                            |      |
+| Caesium Image Compressor | 图片批量压缩软件   | https://www.fosshub.com/Caesium-Image-Compressor.html |      |
+|                          |                    |                                                       |      |
+|                          |                    |                                                       |      |
+|                          |                    |                                                       |      |
+|                          |                    |                                                       |      |
+|                          |                    |                                                       |      |
+|                          |                    |                                                       |      |
+|                          |                    |                                                       |      |
 
 ### Chrome浏览器扩展
 
@@ -100,6 +100,12 @@ mathjax:
 |                                 |                          |                                               |
 |                                 |                          |                                               |
 |                                 |                          |                                               |
+
+| 名称             |      |      |
+| ---------------- | ---- | ---- |
+| Windows Terminal |      |      |
+| Windows TODO     |      |      |
+|                  |      |      |
 
 
 

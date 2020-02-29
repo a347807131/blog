@@ -36,9 +36,17 @@
   },
   {
     "avatar": "http://blog.sagiri-photo.com/wp-content/uploads/2019/11/1243402313_avatar-96x96.png",
-    "name": "小纱雾酱赛高",
+    "name": "SAGIRI",
     "url": "https://blog.sagiri-web.com",
     "introduction": "小纱雾酱赛高",
     "title": "Read More"
+  },
+  {
+    "avatar":"https://view.2heng.xin/content/images/users/ZLl/av_1511333847.png",
+    "name": "Mashiro",
+    "url": "https://2heng.xin",
+    "introduction":"樱花庄的白猫",
+    "title": "瞅一瞅"
+
   }
 ]
