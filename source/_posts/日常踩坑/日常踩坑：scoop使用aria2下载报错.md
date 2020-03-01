@@ -26,7 +26,7 @@ https://github.com/lukesampson/scoop-extras/issues/new?title=telegram%401.9.9%3a
 
 在按照提示在项目地址提了个`issue`得到回复
 
-![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200204211448.png)
+![](https://raw.githubusercontent.com/a347807131/cdn/master/images/20200204211448.png)
 
 然后我就关闭了使用`aria2`下载的设置
 

@@ -41,7 +41,7 @@ mathjax:
 
 而`rsshub`就解决了这类问题，它根据访问的`uri`链接，判断需要爬取的是哪一个目标网站，然后根据然后对应的封装的路由规则取爬取目标页面，然后生成xml文档。
 
-![示例路由](https://raw.githubusercontent.com/a347807131/ms/master/images/20200205010309.png)
+![示例路由](https://raw.githubusercontent.com/a347807131/cdn/master/images/20200205010309.png)
 
 而对于我们来讲，我们需要做的就是使用rss阅读器订阅这些链接，在订阅之后，阅读器会定期的取请求这些链接，以此获取最新的内容，而如果有新内容，阅读器就会推送给我们。
 

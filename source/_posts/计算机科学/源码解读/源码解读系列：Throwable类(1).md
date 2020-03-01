@@ -16,11 +16,11 @@ date: 2018-04-29 13:04:22
 
 ## Throwable类图
 
-![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200118100858.png)
+![](https://raw.githubusercontent.com/a347807131/cdn/master/images/20200118100858.png)
 
 ## 异常类结构体系
 
-![](https://raw.githubusercontent.com/a347807131/ms/master/images/20200118100927.png)
+![](https://raw.githubusercontent.com/a347807131/cdn/master/images/20200118100927.png)
 ### 解读
 
 Error
