@@ -42,11 +42,17 @@
     "title": "Read More"
   },
   {
-    "avatar":"https://view.2heng.xin/content/images/users/ZLl/av_1511333847.png",
+    "avatar": "https://view.2heng.xin/content/images/users/ZLl/av_1511333847.png",
     "name": "Mashiro",
     "url": "https://2heng.xin",
-    "introduction":"樱花庄的白猫",
+    "introduction": "樱花庄的白猫",
     "title": "瞅一瞅"
-
+  },
+  {
+    "avatar": "https://jsonpop.cn/images/author.gif",
+    "name": "MoMik",
+    "url": "https://jsonpop.cn",
+    "introduction": "这是描述",
+    "title": "MoMik's Blog"
   }
 ]
