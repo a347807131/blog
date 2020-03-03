@@ -87,6 +87,6 @@ select * from t limit (offset,nums)
 ```
 ## 数据库数据类型与JDBC数据类型对照表
 
-![](https://raw.githubusercontent.com/a347807131/cdn/master/images/20200118101053.png)
+![](https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200118101053.png)
 
 

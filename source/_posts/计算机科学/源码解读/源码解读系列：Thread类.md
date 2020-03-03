@@ -15,7 +15,7 @@ date: 2018-04-25 23:00:49
 
 ## 类图
 
-![](https://raw.githubusercontent.com/a347807131/cdn/master/images/20200118101552.png)
+![](https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200118101552.png)
 
 ---
 
@@ -115,7 +115,7 @@ public class ThreadTest {
 
     在Java虚拟机 中，线程从最初的创建到最终的消亡，要经历若干个状态：创建(new)、就绪(runnable/start)、运行(running)、阻塞(blocked)、等待(waiting)、时间等待(time waiting) 和 消亡(dead/terminated)。
     在给定的时间点上，一个线程只能处于一种状态，各状态的含义如下图所示：
-   ![](https://raw.githubusercontent.com/a347807131/cdn/master/images/20200118100458.png)
+   ![](https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200118100458.png)
 
 ### 解释：
 
