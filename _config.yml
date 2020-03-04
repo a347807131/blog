@@ -13,7 +13,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://gatsby.fun
+url: http://blog.gatsby.fun
 root: /
 permalink: posts/:abbrlink/
 permalink_defaults:
@@ -65,7 +65,7 @@ prism_plugin:
 index_generator:
   path: ''
   per_page: 18
-  order_by: -date
+  order_by: -update
   
 # Category & Tag
 default_category: uncategorized
@@ -102,7 +102,7 @@ deploy:
   - type: git
     repo:
       github: git@github.com:a347807131/a347807131.github.io.git,master
-      coding: git@e.coding.net:Civin/blog.git,master
+      coding: git@git.coding.net:Civin/blog.git,master
 #
 search:
   path: search.xml
