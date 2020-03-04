@@ -24,7 +24,7 @@
     "avatar": "https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/DIYgod.jpg",
     "name": "DIYgod",
     "url": "https://diygod.me",
-    "introduction":"写代码是热爱，写到世界充满爱！",
+    "introduction": "写代码是热爱，写到世界充满爱！",
     "title": "Read More"
   },
   {
@@ -61,5 +61,12 @@
     "url": "https://kurumit3.top",
     "introduction": "万丈光芒也不如一束逆旅光更耀眼",
     "title": "逆旅光"
+  },
+  {
+    "avatar": "https://www.52bess.com/uploads/avatar.png",
+    "name": "Bess",
+    "url": " https://52bess.com",
+    "introduction": "肥宅程序员",
+    "title": "Read More"
   }
 ]
