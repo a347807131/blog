@@ -24,7 +24,49 @@
     "avatar": "https://cdn.jsdelivr.net/gh/DIYgod/diygod.me@gh-pages/images/DIYgod.jpg",
     "name": "DIYgod",
     "url": "https://diygod.me",
-    "introduction":"写代码是热爱，写到世界充满爱！",
+    "introduction": "写代码是热爱，写到世界充满爱！",
+    "title": "Read More"
+  },
+  {
+    "name": "过客~励む",
+    "avatar": "https://yafine-blog.cn/medias/avatar.jpg",
+    "url": "https://yafine-blog.cn",
+    "introduction": "你现在的努力，是为了以后有更多的选择",
+    "title": "戳一戳"
+  },
+  {
+    "avatar": "http://blog.sagiri-photo.com/wp-content/uploads/2019/11/1243402313_avatar-96x96.png",
+    "name": "SAGIRI",
+    "url": "https://blog.sagiri-web.com",
+    "introduction": "小纱雾酱赛高",
+    "title": "Read More"
+  },
+  {
+    "avatar": "https://view.2heng.xin/content/images/users/ZLl/av_1511333847.png",
+    "name": "Mashiro",
+    "url": "https://2heng.xin",
+    "introduction": "樱花庄的白猫",
+    "title": "瞅一瞅"
+  },
+  {
+    "avatar": "https://jsonpop.cn/images/author.gif",
+    "name": "MoMik",
+    "url": "https://jsonpop.cn",
+    "introduction": "这是描述",
+    "title": "MoMik's Blog"
+  },
+  {
+    "avatar": "http://q.qlogo.cn/headimg_dl?dst_uin=1817855234&spec=640&img_type=jpg",
+    "name": "逆旅光",
+    "url": "https://kurumit3.top",
+    "introduction": "万丈光芒也不如一束逆旅光更耀眼",
+    "title": "逆旅光"
+  },
+  {
+    "avatar": "https://www.52bess.com/uploads/avatar.png",
+    "name": "Bess",
+    "url": " https://52bess.com",
+    "introduction": "肥宅程序员",
     "title": "Read More"
   }
 ]
