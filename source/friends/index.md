@@ -19,5 +19,5 @@ layout: "friends"
 - **名称：**Gatsby's Blog
 - **地址：**[http://gatsby.fun](http://gatsby.fun)
 - **简介：**You see, I'm Gatsby.
-- **头像：**https://avatars1.githubusercontent.com/u/24996382?s=460&v=4
+- **头像：**https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200304204902.gif
 
