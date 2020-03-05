@@ -23,7 +23,7 @@ layout: "friends"
 
 ```json
   {
-    "avatar": "https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/avatar.gif",
+  "avatar": "https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200304204902.gif",
     "name": "Gatsby's Blog",
     "introduction": "You see, I'm Gatsby.",
     "url": "http://gatsby.fun",
