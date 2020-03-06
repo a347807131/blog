@@ -65,7 +65,7 @@ prism_plugin:
 index_generator:
   path: ''
   per_page: 18
-  order_by: -update
+  order_by: -date
   
 # Category & Tag
 default_category: uncategorized
@@ -119,37 +119,13 @@ feed:
   content_limit: 140
   content_limit_delim: ' '
   order_by: -date
-# Live2D
-## https://github.com/EYHN/hexo-helper-live2d
-#live2d:
-#  enable: true
-#  scriptFrom: local #注意：我这里使用的是local
-#  pluginRootPath: live2dw/ # 插件在站点上的根目录(相对路径)
-#  pluginJsPath: lib/ # 脚本文件相对与插件根目录路径
-#  pluginModelPath: assets/ # 模型文件相对与插件根目录路径
-#  # scriptFrom: jsdelivr # jsdelivr CDN
-#  # scriptFrom: unpkg # unpkg CDN
-#  # scriptFrom: https://cdn.jsdelivr.net/npm/live2d-widget@3.x/lib/L2Dwidget.min.js # 你的自定义 url
-#  tagMode: true # 标签模式, 是否仅替换 live2d tag标签而非插入到所有页面中
-#  debug: false # 调试, 是否在控制台输出日志
-#  model:
-#    use: hijiki # npm-module package name
-#    # use: hijiki # 博客根目录/live2d_models/ 下的目录名
-#    # use: ./wives/hijiki # 相对于博客根目录的路径
-#    # use: https://cdn.jsdelivr.net/npm/live2d-widget-model-hijiki@1.0.5/assets/hijiki.model.json # 你的自定义 url
-#    scale: 1
-#    hHeadPos: 0.5
-#    vHeadPos: 0.5
-#  display:
-#    superSample: 2
-#    width: 100
-#    height: 100
-#    position: left
-#    hOffset: 30
-#    vOffset: 20
-#  mobile:
-#    show: false
-#    scale: 0.05
-#  react:
-#    opacityDefault: 0.6
-#    opacityOnHover: 0.2
+
+hexo_external_link:
+  enable: true
+  enable_base64_encode: true
+  url_param_name: 'u'
+  html_file_name: 'go.html'
+  target_blank: true
+  link_rel: 'external nofollow noopener noreferrer'
+  domain: 'your_domain' # 如果开启了防盗链，填写你的域名
+  safety_chain: true
