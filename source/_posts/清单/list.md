@@ -74,7 +74,7 @@ mathjax:
 | RunningCheeseChrome      | 大佬的定制版chrome | https://www.lanzous.com/b851998                       |      |
 | Jetbrains toolbox        |                    | https://www.jetbrains.com/                            |      |
 | Caesium Image Compressor | 图片批量压缩软件   | https://www.fosshub.com/Caesium-Image-Compressor.html |      |
-|                          |                    |                                                       |      |
+| 人人影视                 | 刷剧软件           | http://www.rrys2019.com/                              |      |
 |                          |                    |                                                       |      |
 |                          |                    |                                                       |      |
 |                          |                    |                                                       |      |

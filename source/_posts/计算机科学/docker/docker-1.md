@@ -58,7 +58,7 @@ $docker stop [container_name]/[container_id]
 
 #进入容器
 $docker attach [container_name]/[container_id]
-#运行这个容器中的镜像的话，并且调用镜像里面的 bash
+#运行这个容器中的镜像的话，并且调用镜像里面的 go.bash
 $docker run -t -i container_name/container_id /bin/bash
 ```
 
