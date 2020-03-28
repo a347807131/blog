@@ -68,5 +68,29 @@
     "url": " https://52bess.com",
     "introduction": "肥宅程序员",
     "title": "Read More"
+  },
+  {
+    "date": "2020.3",
+    "avatar": "https://raycoder.me/favicon.ico",
+    "name": "Ray's Blog",
+    "url": "https://raycoder.me",
+    "introduction": "夜晚再黑，也压不过雪的白",
+    "title": "Read More"
+  },
+  {
+    "date": "2019.09.09",
+    "avatar": "/images/tuzi.jpg",
+    "name": "@辣椒の酱",
+    "introduction": "后端开发，技术分享。",
+    "url": "https://removeif.github.io/",
+    "title": "Read More"
+  },
+  {
+    "date": "2020.3.6",
+    "avatar": "https://blog.svipbox.cn/wp-content/uploads/2019/10/moxi.jpg",
+    "name": "墨惜博客",
+    "introduction": "一个基于资源分享与技术交流，生活写照与情感语录的心灵驿站",
+    "url": "https://blog.svipbox.cn",
+    "title": "Read More"
   }
 ]
