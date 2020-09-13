@@ -99,7 +99,7 @@ that you may come across four or five times in life.
 
   它有着引人入胜的神秘，暗示着，楼上的卧室更为美丽和凉爽，走廊上发生着赏心悦事，还有浪漫的气息——不是那种用香草保存起来，发着霉味的气息，而是新鲜还都带有生气，使人联想到今年那辆闪亮的汽车，联想到鲜花还未枯萎的舞会的那种气息。
 
-- I have an idea that Gatsby himself didn't believe it would come, and perhaps he no longer cared. If that was true he must have felt that he had lost the old warm world, paid a high price for living too long with a single dream. He must have looked up at an unfamiliar sky through frightening leaves and shivered as he found as he found what grotesque thing a rose is and how raww the sunlight was upon the scarely created greass. A new world, material without being ral, where poor ghosts, breathing dreams like air, drifted fortuitously about... like that ashen, fantastic fingure dliding toward him through the amorphous trees.
+- I have an idea that Gatsby himself didn't believe it would come, and perhaps he no longer cared. If that was true he must have felt that he had lost the old warm world, paid a high price for living too long with a single dream. He must have looked up at an unfamiliar sky through frightening leaves and shivered as he found as he found what grotesque thing a rose is and how raw the sunlight was upon the scarely created greass. A new world, material without being ral, where poor ghosts, breathing dreams like air, drifted fortuitously about... like that ashen, fantastic fingure dliding toward him through the amorphous trees.
 
 - 
 
