@@ -129,3 +129,11 @@ hexo_external_link:
   link_rel: 'external nofollow noopener noreferrer'
   domain: 'your_domain' # 如果开启了防盗链，填写你的域名
   safety_chain: true
+
+# hexo-filter-github-emojis 配置
+githubEmojis:
+  enable: true
+  className: github-emoji
+  inject: true
+  styles:
+  customEmojis:
