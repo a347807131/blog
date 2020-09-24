@@ -19,14 +19,14 @@ layout: "friends"
 - **名称：**Gatsby's Blog
 - **地址：**[http://gatsby.fun](http://gatsby.fun)
 - **简介：**You see, I'm Gatsby.
-- **头像：**https://cdn.jsdelivr.net/gh/a347807131/a347807131.github.io/medias/avatar.gif
+- **头像：** <https://www.gravatar.com/avatar/5c03971734d1508e26c331f64f11e6d3?s=256>
 
 ```json
   {
-  "avatar": "https://cdn.jsdelivr.net/gh/a347807131/cdn/images/20200304204902.gif",
+  "avatar": "https://www.gravatar.com/avatar/5c03971734d1508e26c331f64f11e6d3?s=256",
     "name": "Gatsby's Blog",
     "introduction": "You see, I'm Gatsby.",
-    "url": "http://gatsby.fun",
+    "url": "http://blog.gatsby.fun",
     "title": "Read More"
   }
 ```
