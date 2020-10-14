@@ -1,6 +1,3 @@
 [submodule "themes/matery"]
 	path = themes/matery
 	url = https://github.com/a347807131/hexo-theme-matery.git
-[submodule "source/webstack"]
-	path = source/webstack
-	url = git@github.com:a347807131/WebStackPage.github.io.git
