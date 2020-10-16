@@ -5,7 +5,7 @@ tags:
   - windows
   - linux
 categories:
-  - 清单
+  - 计算机科学
 abbrlink: '563e8939'
 date: 2020-01-03 13:21:11
 mathjax:
