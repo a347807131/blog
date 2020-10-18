@@ -1,5 +1,5 @@
 ---
-itle: Jottings
+title: Jottings
 abbrlink: dbb7b7dd
 date: 2019-12-15 15:11:32
 tags:
@@ -7,7 +7,20 @@ tags:
 
 > 记录日常的一些突发奇想和生活琐事
 <!--more-->
+
+
+- 列表
+- 士大夫发
+- 收到罚单
+
+1. 撒旦飞洒
+2. 啊手动阀手动阀
+3. 阿斯顿发射点
+
+
+
 ## 2019-12-17x
+
 ---
 <div>
 <img align="center" width="200" src=http://a3.qpic.cn/psb?/V13Dk2vp2pQikm/Rn0Jt6hkEuls8dcwIoU9XZnz9FblaDOzTj8I5HErxgk!/b/dP6EDVfiDgAA&ek=1&kp=1&pt=0&bo=uAHHGQAAAAAFAEQ!&tl=3&su=0125417393&tm=1576584000&sce=0-12-12&rf=2-9">
