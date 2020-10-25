@@ -3,4 +3,4 @@
 	url = https://github.com/a347807131/hexo-theme-matery.git
 [submodule "source/_posts"]
 	path = source/_posts
-	url = git@github.com:a347807131/_posts.git
+	url = https://github.com/a347807131/_posts.git
