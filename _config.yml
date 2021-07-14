@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Gatsby's Blog
+title: JG
 subtitle: You see, I'm Gatsby.
 description:
 keywords: blog
@@ -111,7 +111,7 @@ ignore:
 # Extensions
 ## Plugins: https://hexo.io/plugins/
 ## Themes: https://hexo.io/themes/
-theme: matery
+theme: next
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
