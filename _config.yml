@@ -3,7 +3,7 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: JG
+title: Gatsby's Blog
 subtitle: You see, I'm Gatsby.
 description:
 keywords: blog
@@ -61,6 +61,16 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+
+symbols_count_time:
+  symbols: true
+  time: true
+  total_symbols: true
+  total_time: true
+  exclude_codeblock: false
+  awl: 4
+  wpm: 275
+  suffix: "mins."
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')
